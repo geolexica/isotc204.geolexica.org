@@ -1,0 +1,14 @@
+---
+termid: 3.5.9.3
+term: concurrent
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: concurrent
+  definition:
+  - content: "{{operational model}} where {{service,services}} can be provided to
+      multiple {{user,users}} at any one time"
+  notes: []
+  examples: []
+  language_code: eng

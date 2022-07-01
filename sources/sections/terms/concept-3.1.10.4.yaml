@@ -1,0 +1,21 @@
+---
+termid: 3.1.10.4
+term: data concept registry
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: data concept registry
+  definition:
+  - content: electronic {{data dictionary}} that follows precise documented rules
+      for the registration and management of stored {{data concept,data concepts}}
+  notes:
+  - content: The data concept registry contains {{meta-attribute,meta-attributes}}
+      about data concepts in terms of their names and representational forms as well
+      as the semantics associated with the data concepts. A data concept registry
+      may contain metadata that assists information interchange and re-use, both from
+      the perspective of human users and for machine-interpretation of data concepts.
+  - content: A data concept registry typically includes advanced features for adding
+      retrieving, and working with its contents.
+  examples: []
+  language_code: eng

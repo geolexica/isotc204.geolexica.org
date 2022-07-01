@@ -1,0 +1,14 @@
+---
+termid: 3.2.2.6
+term: traffic management central system
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: traffic management central system
+  definition:
+  - content: "{{central system,centre system}} that monitors and controls traffic
+      and the {{road network}}"
+  notes: []
+  examples: []
+  language_code: eng

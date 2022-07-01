@@ -1,0 +1,17 @@
+---
+termid: 3.5.5.2
+term: ITS-S communications service
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ITS-S communications service
+  - type: expression
+    designation: communication service
+  definition:
+  - content: "<ITS-S> performance of one or more tasks to fulfil an {{ITS-S communications
+      need,ITS-S communication need}} for an {{ITS-S communications user,ITS-S communication
+      user}}"
+  notes: []
+  examples: []
+  language_code: eng

@@ -1,0 +1,17 @@
+---
+termid: 3.7.3.16
+term: dual-mode vehicle
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dual-mode vehicle
+  - type: expression
+    designation: driving automation dual-mode vehicle
+  definition:
+  - content: "<driving automation> {{ADS-equipped vehicle}} designed for both driverless
+      operation and operation by a {{in-vehicle driver,conventional driver}} for complete
+      _trips_"
+  notes: []
+  examples: []
+  language_code: eng

@@ -1,0 +1,16 @@
+---
+termid: 3.7.5.10
+term: moderate vehicle speed
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: moderate vehicle speed
+  definition:
+  - content: "{{speed}} of a {{vehicle}} that exceeds {{moderately-low vehicle speed,moderately-low
+      vehicle speeds}} but does not reach free-flow motorway speeds"
+  notes:
+  - content: Local regulations for the exact speed range vary.
+  examples:
+  - content: A speed in the range of 48 km/h and 87 km/h.
+  language_code: eng

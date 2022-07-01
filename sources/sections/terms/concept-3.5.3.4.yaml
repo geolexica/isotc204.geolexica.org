@@ -1,0 +1,20 @@
+---
+termid: 3.5.3.4
+term: ITS user need
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ITS user need
+  - type: expression
+    designation: user
+  - type: expression
+    designation: need
+  definition:
+  - content: "{{user need,need}} of an {{entity}} external to the {{intelligent transport
+      system}} for a {{surface transport system}} benefit that can be met with the
+      use of information, communication, sensor, and/or control technologies"
+  notes: []
+  examples:
+  - content: Increasing safety, sustainability, efficiency and/or comfort.
+  language_code: eng

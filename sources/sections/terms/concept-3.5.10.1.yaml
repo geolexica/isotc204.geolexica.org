@@ -1,0 +1,14 @@
+---
+termid: 3.5.10.1
+term: network model
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: network model
+  definition:
+  - content: infrastructure framework for the agreement between a {{service provider}}
+      and a {{user}}
+  notes: []
+  examples: []
+  language_code: eng

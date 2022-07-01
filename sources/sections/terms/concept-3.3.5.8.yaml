@@ -1,0 +1,18 @@
+---
+termid: 3.3.5.8
+term: road segment
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: road segment
+  definition:
+  - content: "{{link}} that represents a contiguous length of a {{road link}} characterized
+      by the same physical characteristics"
+  notes:
+  - content: The definition of road segments is highly dependent on which characteristics
+      are modelled by the implementation. Characteristics that can result in a new
+      road segment include addition or subtraction of a {{lane}}, a change in {{roadway}}
+      width, the change of {{road}} type (e.g. start/end of a bridge), etc.
+  examples: []
+  language_code: eng

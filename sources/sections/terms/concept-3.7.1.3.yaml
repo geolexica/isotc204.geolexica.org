@@ -1,0 +1,14 @@
+---
+termid: 3.7.1.3
+term: wheel
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: wheel
+  definition:
+  - content: circular {{material entity}} that rotates about an axle to facilitate
+      movement of the {{vehicle}}
+  notes: []
+  examples: []
+  language_code: eng

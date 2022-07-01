@@ -1,0 +1,20 @@
+---
+termid: 3.4.1.2
+term: spatial location
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: spatial location
+  - type: expression
+    designation: ITS spatial location
+  definition:
+  - content: "{{location}} within three-dimensional space"
+  notes:
+  - content: The "location" could be a point (consuming no space) or could consume
+      space in one, two, or three dimensions. In any case, the location is identified
+      within a larger space.
+  - content: Within ITS, locations are typically locations on or near the surface
+      of the earth.
+  examples: []
+  language_code: eng

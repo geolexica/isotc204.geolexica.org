@@ -1,0 +1,15 @@
+---
+termid: 3.1.4.8
+term: physical viewpoint
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: physical viewpoint
+  definition:
+  - content: "{{architecture viewpoint}} used to frame {{concern,concerns}} related
+      to the assignment of functionality to {{physical object,physical objects}} and
+      the interfaces among these physical objects"
+  notes: []
+  examples: []
+  language_code: eng

@@ -1,0 +1,16 @@
+---
+termid: 3.1.6.4
+term: interaction
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: interaction
+  - type: expression
+    designation: enterprise view interaction
+  definition:
+  - content: "<enterprise view> {{element}} that represents coordination between two
+      {{enterprise object,enterprise objects}}"
+  notes: []
+  examples: []
+  language_code: eng

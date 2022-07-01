@@ -1,0 +1,15 @@
+---
+termid: 3.5.8.4
+term: cooperative
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: cooperative
+  definition:
+  - content: type of{{financial model}} where __user__ {{user,s}} partner to defray
+      the costs of {{service,services}}
+  notes:
+  - content: Cooperative models are exclusive {{commercial}} and {{public}} models.
+  examples: []
+  language_code: eng

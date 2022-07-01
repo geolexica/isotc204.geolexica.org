@@ -1,0 +1,24 @@
+---
+termid: 3.1.5.5
+term: facilities layer
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: facilities layer
+  - type: expression
+    designation: ITS-S facilities layer
+  definition:
+  - content: |-
+      deprecated:[application layer]
+
+
+
+      <ITS-S> protocol layer in the {{ITS-S reference architecture,ITS station reference architecture}} containing the OSI session, presentation and application layer protocols
+  notes:
+  - content: Within the US, the NTCIP standards call the facilities layer the "application
+      layer". However, as this term is easily confused with both the OSI application
+      layer and the {{application entity}}, the term should be avoided and qualified
+      when used (e.g. OSI application layer).
+  examples: []
+  language_code: eng

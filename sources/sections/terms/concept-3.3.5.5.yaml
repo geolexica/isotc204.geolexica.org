@@ -1,0 +1,15 @@
+---
+termid: 3.3.5.5
+term: link
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: link
+  definition:
+  - content: "<road network> component of a {{road model}} that represents a connection
+      between two {{node,nodes}}"
+  notes:
+  - content: A link can be curvilinear and can have various attributes such as width.
+  examples: []
+  language_code: eng

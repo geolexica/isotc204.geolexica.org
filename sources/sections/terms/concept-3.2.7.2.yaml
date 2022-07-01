@@ -1,0 +1,14 @@
+---
+termid: 3.2.7.2
+term: ITS trust domain
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ITS trust domain
+  definition:
+  - content: set of {{bounded secured managed domain,bounded secured managed domains}}
+      that meet a defined set of ITS industry security requirements
+  notes: []
+  examples: []
+  language_code: eng

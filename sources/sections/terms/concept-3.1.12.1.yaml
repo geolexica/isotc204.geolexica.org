@@ -1,0 +1,19 @@
+---
+termid: 3.1.12.1
+term: use case
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: use case
+  definition:
+  - content: description of the behavioural requirements of a {{system}} and its {{interaction}}
+      with a {{user}}
+  notes: []
+  examples: []
+  language_code: eng
+  sources:
+  - type: authoritative
+    origin:
+      ref: ref_21,clause 3.15
+    modification: Note 1 to entry removed.

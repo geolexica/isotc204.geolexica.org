@@ -1,0 +1,15 @@
+---
+termid: 3.5.7.2
+term: corporate customer model
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: corporate customer model
+  definition:
+  - content: "{{contractual model}} where the {{user}} is a {{commercial}} {{entity}}"
+  notes: []
+  examples:
+  - content: A business purchasing monthly {{public transport}} passes for its employees.
+  - content: A commercial entity using a commercial courier service for package delivery.
+  language_code: eng

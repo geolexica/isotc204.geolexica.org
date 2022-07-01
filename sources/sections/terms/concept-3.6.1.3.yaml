@@ -1,0 +1,13 @@
+---
+termid: 3.6.1.3
+term: pedestrian
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: pedestrian
+  definition:
+  - content: "{{person}} who is travelling on foot"
+  notes: []
+  examples: []
+  language_code: eng

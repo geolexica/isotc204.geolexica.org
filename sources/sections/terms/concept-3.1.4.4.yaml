@@ -1,0 +1,15 @@
+---
+termid: 3.1.4.4
+term: enterprise viewpoint
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: enterprise viewpoint
+  definition:
+  - content: "{{architecture viewpoint}} used to frame the policies, funding incentives,
+      working arrangements and jurisdictional structure that support the technical
+      layers of the{{architecture}}"
+  notes: []
+  examples: []
+  language_code: eng

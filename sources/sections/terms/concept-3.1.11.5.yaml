@@ -1,0 +1,14 @@
+---
+termid: 3.1.11.5
+term: message
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: message
+  definition:
+  - content: grouping of {{data element,data elements}}, {{data frame,data frames}},
+      or data elements and data frames that is used to convey information
+  notes: []
+  examples: []
+  language_code: eng

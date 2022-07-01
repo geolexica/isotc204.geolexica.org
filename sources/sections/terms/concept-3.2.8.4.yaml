@@ -1,0 +1,15 @@
+---
+termid: 3.2.8.4
+term: application template
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: application template
+  - type: expression
+    designation: ITS application template
+  definition:
+  - content: defined annotated outline for an {{ITS application specification}}
+  notes: []
+  examples: []
+  language_code: eng

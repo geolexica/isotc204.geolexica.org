@@ -1,0 +1,23 @@
+---
+termid: 3.1.3.5
+term: concern
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: concern
+  - type: expression
+    designation: system concern
+  definition:
+  - content: "<system> interest in a {{system}} relevant to one or more of its {{stakeholder,stakeholders}}"
+  notes:
+  - content: A concern pertains to any influence on a system in its {{environment}},
+      including developmental, technological, business, operational, organizational,
+      political, economic, legal, regulatory, ecological and social influences.
+  examples: []
+  language_code: eng
+  sources:
+  - type: authoritative
+    origin:
+      ref: ref_22,clause 3.7
+    modification: ''

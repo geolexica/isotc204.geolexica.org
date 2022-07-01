@@ -1,0 +1,15 @@
+---
+termid: 3.1.1.1
+term: entity
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: entity
+  definition:
+  - content: concrete or abstract thing that exists, did exist, or can possibly exist,
+      including associations among these things
+  notes: []
+  examples:
+  - content: "{{person,Person}}, object, event, idea, process, etc."
+  language_code: eng

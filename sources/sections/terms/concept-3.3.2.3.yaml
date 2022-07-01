@@ -1,0 +1,33 @@
+---
+termid: 3.3.2.3
+term: Jersey barrier
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Jersey barrier
+  - type: expression
+    designation: "*city block*"
+  - type: expression
+    designation: "*concrete barrier*"
+  definition:
+  - content: |-
+      {{physical traffic separator}} that consists of a wall with a wide, sloped base designed to divert {{vehicle,vehicles}} back into their {{traffic lane}}
+
+
+
+
+
+
+
+
+
+
+
+      <<<
+  notes:
+  - content: Jersey barriers are typically modular. They are typically made of concrete
+      but can also be made with other materials such as plastic filled with water
+      or sand.
+  examples: []
+  language_code: eng

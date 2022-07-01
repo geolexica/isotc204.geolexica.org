@@ -1,0 +1,14 @@
+---
+termid: 3.3.5.10
+term: lane segment
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: lane segment
+  definition:
+  - content: "{{road,link}} that represents a contiguous length of a {{lane link}}
+      characterized by the same physical characteristics"
+  notes: []
+  examples: []
+  language_code: eng

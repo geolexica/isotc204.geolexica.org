@@ -1,0 +1,14 @@
+---
+termid: 3.1.3.9
+term: architecture model
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: architecture model
+  definition:
+  - content: work product representing one or more {{architecture view,architecture
+      views}} and expressed in a format governed by a {{model kind}}
+  notes: []
+  examples: []
+  language_code: eng

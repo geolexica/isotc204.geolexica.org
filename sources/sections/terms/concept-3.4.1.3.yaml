@@ -1,0 +1,13 @@
+---
+termid: 3.4.1.3
+term: point location
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: point location
+  definition:
+  - content: "{{spatial location}} with no length in any of the spatial dimensions"
+  notes: []
+  examples: []
+  language_code: eng

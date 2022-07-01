@@ -1,0 +1,18 @@
+---
+termid: 3.5.2.1
+term: transport service
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: transport service
+  - type: expression
+    designation: service
+  definition:
+  - content: "<transport> {{service}} that delivers one or more {{material entity,material
+      entities}} from one {{location}} to another to satisfy a _transport_ {{transport
+      need,need}}"
+  notes:
+  - content: The material entities delivered can be people and/or goods.
+  examples: []
+  language_code: eng

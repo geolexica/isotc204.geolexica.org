@@ -1,0 +1,23 @@
+---
+termid: 3.3.1.6
+term: travelled way
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: travelled way
+  definition:
+  - content: part of the {{roadway}} that is currently intended for transport purposes
+  notes:
+  - content: The travelled way does not include {{hard shoulder,hard shoulders}},
+      {{hardstanding}}, or other areas that are not currently intended for normal
+      operational use. In other words, while these other areas are "designed" for
+      transport purposes, they are not "intended" for normal transport purposes (at
+      present); rather these extra areas exist for safety and other exceptional use
+      conditions.
+  - content: While the limits of the roadway are defined by the design of the physical
+      infrastructure and are generally static; the limits of the travelled way can
+      be dynamic, such as in the case of a {{hard shoulder for emergency use}} being
+      converted into {{hard shoulder running}} operation.
+  examples: []
+  language_code: eng

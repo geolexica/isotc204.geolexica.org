@@ -1,0 +1,18 @@
+---
+termid: 3.1.13.1
+term: instant
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: instant
+  definition:
+  - content: 0-dimensional geometric primitive representing position in time
+  notes: []
+  examples: []
+  language_code: eng
+  sources:
+  - type: authoritative
+    origin:
+      ref: ref_13,clause 4.1.17
+    modification: Note 1 to entry removed.

@@ -1,0 +1,14 @@
+---
+termid: 3.5.11.4
+term: rideshare service
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: rideshare service
+  definition:
+  - content: "{{cooperative}} {{shared transport service}} that transports {{passenger,passengers}}
+      {{concurrent,concurrently}}"
+  notes: []
+  examples: []
+  language_code: eng

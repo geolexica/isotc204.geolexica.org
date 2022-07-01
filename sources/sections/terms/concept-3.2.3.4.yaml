@@ -1,0 +1,18 @@
+---
+termid: 3.2.3.4
+term: roadside unit
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: roadside unit
+  - type: expression
+    designation: ITS roadside unit
+  - type: expression
+    designation: RSU
+  definition:
+  - content: part of {{connected roadside equipment}} that provides wireless connectivity
+      to {{vehicle system,vehicle systems}} and/or {{personal system,personal systems}}
+  notes: []
+  examples: []
+  language_code: eng

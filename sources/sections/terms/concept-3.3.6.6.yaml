@@ -1,0 +1,13 @@
+---
+termid: 3.3.6.6
+term: egress link
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: egress link
+  definition:
+  - content: all {{egress lane,egress lanes}} on a {{road link}}
+  notes: []
+  examples: []
+  language_code: eng

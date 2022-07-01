@@ -1,0 +1,14 @@
+---
+termid: 3.5.13.4
+term: P2P mobility sharing app
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: P2P mobility sharing app
+  definition:
+  - content: "{{mobility app}} that assists a {{transport user}} in acquiring {{transport
+      service}} from an individual that participates in the mobility app's network"
+  notes: []
+  examples: []
+  language_code: eng

@@ -1,0 +1,13 @@
+---
+termid: 3.3.6.4
+term: ingress link
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ingress link
+  definition:
+  - content: all {{ingress lane,ingress lanes}} on a {{road link}}
+  notes: []
+  examples: []
+  language_code: eng

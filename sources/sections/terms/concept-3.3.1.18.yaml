@@ -1,0 +1,17 @@
+---
+termid: 3.3.1.18
+term: shoulder
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: shoulder
+  definition:
+  - content: either a {{hard shoulder}} or a {{soft shoulder}}
+  notes:
+  - content: In some jurisdictions, a shoulder can be used for emergency stops and/or
+      other purposes in addition to providing a clear zone for safety purposes.
+  - content: "{{roadside,Roadside}}, shoulder, and {{verge}} define similar but slightly
+      different concepts"
+  examples: []
+  language_code: eng

@@ -1,0 +1,15 @@
+---
+termid: 3.5.7.4
+term: government customer model
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: government customer model
+  definition:
+  - content: "{{contractual model}} where the {{user}} is a governmental {{entity}}"
+  notes: []
+  examples:
+  - content: A governmental entity using a {{commercial}} courier service for package
+      delivery.
+  language_code: eng

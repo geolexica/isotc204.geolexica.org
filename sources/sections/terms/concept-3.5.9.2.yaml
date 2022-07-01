@@ -1,0 +1,16 @@
+---
+termid: 3.5.9.2
+term: sequential
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sequential
+  definition:
+  - content: "{{operational model}} where {{service,services}} are provided to a single
+      {{user}} at any one time"
+  notes:
+  - content: A single transport consumer can request the transport of multiple {{passenger,passengers}}.
+  examples:
+  - content: Traditional taxi service.
+  language_code: eng

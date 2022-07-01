@@ -1,0 +1,19 @@
+---
+termid: 3.1.2.1
+term: system
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: system
+  definition:
+  - content: combination of interacting {{element,elements}} organized to achieve
+      one or more stated purposes
+  notes: []
+  examples: []
+  language_code: eng
+  sources:
+  - type: authoritative
+    origin:
+      ref: ref_10,clause 4.1.46
+    modification: Notes to entry removed.

@@ -1,0 +1,15 @@
+---
+termid: 3.3.4.1
+term: hard shoulder for emergency use
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: hard shoulder for emergency use
+  definition:
+  - content: operating mode of a {{hard shoulder}} that allows operation of emergency,
+      construction, maintenance, or other special use {{vehicle,vehicles}} or for
+      emergency stopping and is prohibited for other vehicle usage
+  notes: []
+  examples: []
+  language_code: eng

@@ -1,0 +1,20 @@
+---
+termid: 3.1.3.8
+term: model kind
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: model kind
+  definition:
+  - content: conventions for a type of modelling
+  notes:
+  - content: Examples of model kinds include {{data flow}} diagrams, {{class}} diagrams,
+      Petri nets, balance sheets, organization charts and state transition models.
+  examples: []
+  language_code: eng
+  sources:
+  - type: authoritative
+    origin:
+      ref: ref_22,clause 3.9
+    modification: ''

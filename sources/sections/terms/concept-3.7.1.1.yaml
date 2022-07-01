@@ -1,0 +1,14 @@
+---
+termid: 3.7.1.1
+term: vehicle
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: vehicle
+  definition:
+  - content: "{{material entity}} designed to transport people or physical goods by
+      changing its physical position"
+  notes: []
+  examples: []
+  language_code: eng

@@ -1,0 +1,16 @@
+---
+termid: 3.5.4.2
+term: ITS-S service provider
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ITS-S service provider
+  - type: expression
+    designation: service provider
+  definition:
+  - content: "<ITS-S> {{ITS station,ITS-S}} that delivers one or more {{ITS-S service,ITS-S
+      services}}"
+  notes: []
+  examples: []
+  language_code: eng

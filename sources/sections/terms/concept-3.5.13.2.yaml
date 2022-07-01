@@ -1,0 +1,14 @@
+---
+termid: 3.5.13.2
+term: B2C mobility sharing app
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: B2C mobility sharing app
+  definition:
+  - content: "{{mobility app}} that assists a {{transport user}} in acquiring a {{transport
+      service}} from a specific business"
+  notes: []
+  examples: []
+  language_code: eng

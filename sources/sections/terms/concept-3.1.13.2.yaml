@@ -1,0 +1,13 @@
+---
+termid: 3.1.13.2
+term: duration
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: duration
+  definition:
+  - content: time between two {{instant,instants}}
+  notes: []
+  examples: []
+  language_code: eng

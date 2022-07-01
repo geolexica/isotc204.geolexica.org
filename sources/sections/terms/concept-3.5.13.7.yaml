@@ -1,0 +1,14 @@
+---
+termid: 3.5.13.7
+term: real-time traveller information app
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: real-time traveller information app
+  definition:
+  - content: "{{mobility app}} that provides information about current travel conditions
+      to a {{transport user}}"
+  notes: []
+  examples: []
+  language_code: eng

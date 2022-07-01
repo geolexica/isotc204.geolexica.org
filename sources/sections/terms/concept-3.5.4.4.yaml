@@ -1,0 +1,18 @@
+---
+termid: 3.5.4.4
+term: ITS-S user need
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ITS-S user need
+  - type: expression
+    designation: user need
+  - type: expression
+    designation: need
+  definition:
+  - content: "<ITS-S> {{user need,need}} for processing within a {{bounded secured
+      managed domain,bounded, secure, managed domain}}"
+  notes: []
+  examples: []
+  language_code: eng

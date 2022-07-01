@@ -1,0 +1,13 @@
+---
+termid: 3.3.6.5
+term: egress lane
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: egress lane
+  definition:
+  - content: "{{traffic lane}} designed for exiting a {{junction}}"
+  notes: []
+  examples: []
+  language_code: eng

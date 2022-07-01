@@ -1,0 +1,17 @@
+---
+termid: 3.6.2.5
+term: remote driver
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: remote driver
+  definition:
+  - content: "{{driver}} that performs the {{dynamic driving task}} without using
+      the {{vehicle,vehicle's}} {{built-in vehicle input device,built-in input devices}}
+      to control the longitudinal and lateral movement of the vehicle"
+  notes:
+  - content: A remote driver can use a variety of physical input devices, but none
+      that are built into the vehicle.
+  examples: []
+  language_code: eng

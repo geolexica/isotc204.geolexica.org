@@ -1,0 +1,17 @@
+---
+termid: 3.1.5.7
+term: security entity
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: security entity
+  - type: expression
+    designation: ITS-S security entity
+  definition:
+  - content: "<ITS-S> part of the {{ITS-S reference architecture,ITS station reference
+      architecture}} that is responsible for providing privacy, communication security
+      and {{system}} security"
+  notes: []
+  examples: []
+  language_code: eng

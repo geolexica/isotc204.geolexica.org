@@ -1,0 +1,13 @@
+---
+termid: 3.3.5.2
+term: road network
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: road network
+  definition:
+  - content: interconnected collection of {{road,roads}}
+  notes: []
+  examples: []
+  language_code: eng

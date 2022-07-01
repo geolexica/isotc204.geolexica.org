@@ -1,0 +1,15 @@
+---
+termid: 3.7.5.3
+term: moderately low-speed vehicle
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: moderately low-speed vehicle
+  definition:
+  - content: "{{vehicle}} with a {{design speed}} in the range of {{moderately-low
+      vehicle speed,moderately-low vehicle speeds}}"
+  notes: []
+  examples:
+  - content: Typical moped.
+  language_code: eng

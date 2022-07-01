@@ -1,0 +1,24 @@
+---
+termid: 3.1.3.11
+term: environment
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: environment
+  - type: expression
+    designation: system environment
+  definition:
+  - content: "<system> context determining the setting and circumstances of all influences
+      upon a {{system}}"
+  notes:
+  - content: The environment of a system includes developmental, technological, business,
+      operational, organizational, political, economic, legal, regulatory, ecological
+      and social influences.
+  examples: []
+  language_code: eng
+  sources:
+  - type: authoritative
+    origin:
+      ref: ref_22,clause 3.8
+    modification: ''

@@ -1,0 +1,21 @@
+---
+termid: 3.1.3.4
+term: stakeholder
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: stakeholder
+  - type: expression
+    designation: system stakeholder
+  definition:
+  - content: "<system> individual, team, organization, or {{scenario,classes}} thereof,
+      having an interest in a {{system}}"
+  notes: []
+  examples: []
+  language_code: eng
+  sources:
+  - type: authoritative
+    origin:
+      ref: ref_22,clause 3.10
+    modification: ''

@@ -1,0 +1,17 @@
+---
+termid: 3.2.7.3
+term: ITS station
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ITS station
+  - type: expression
+    designation: ITS-S
+  definition:
+  - content: "{{bounded secured managed domain}} that is able to meet requirements
+      of the {{ITS trust domain}} within which it wishes to participate"
+  notes:
+  - content: The ITS station reference architecture is defined in <<ref_16,ISO 21217>>.
+  examples: []
+  language_code: eng

@@ -1,0 +1,18 @@
+---
+termid: 3.2.9.5
+term: ITS-S application process installation
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ITS-S application process installation
+  definition:
+  - content: installation of an implementation of an {{ITS-S application process}}
+      on an {{ITS station}}
+  notes:
+  - content: An implementation is typically associated with an implementation name,
+      a version and release number.
+  - content: An installation is typically associated with a specific licence code
+      or serial number.
+  examples: []
+  language_code: eng

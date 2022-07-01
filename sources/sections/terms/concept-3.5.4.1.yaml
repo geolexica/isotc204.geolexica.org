@@ -1,0 +1,16 @@
+---
+termid: 3.5.4.1
+term: ITS-S service
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ITS-S service
+  - type: expression
+    designation: service
+  definition:
+  - content: "<ITS-S> performance of one or more tasks to fulfil an {{ITS-S user need}}
+      for an {{ITS-S user}}"
+  notes: []
+  examples: []
+  language_code: eng

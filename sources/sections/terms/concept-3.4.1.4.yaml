@@ -1,0 +1,22 @@
+---
+termid: 3.4.1.4
+term: geographic point location
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: geographic point location
+  - type: expression
+    designation: "*geolocation*"
+  definition:
+  - content: well defined geographic place described by one coordinate tuple
+  notes:
+  - content: The "geolocation" term is a short version of the term used within some
+      ITS communities.
+  examples: []
+  language_code: eng
+  sources:
+  - type: authoritative
+    origin:
+      ref: ref_15,clause 4.1.11
+    modification: Note 1 to entry added.

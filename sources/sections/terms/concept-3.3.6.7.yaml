@@ -1,0 +1,18 @@
+---
+termid: 3.3.6.7
+term: intersection manoeuvre
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: intersection manoeuvre
+  - type: expression
+    designation: manoeuvre
+  - type: expression
+    designation: "*maneuver*"
+  definition:
+  - content: "<junction> movement from an {{ingress lane}} to an {{egress lane}}"
+  notes:
+  - content: The term "maneuver" is the American English spelling.
+  examples: []
+  language_code: eng

@@ -1,0 +1,24 @@
+---
+termid: 3.7.3.13
+term: level 5 ADS
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: level 5 ADS
+  - type: expression
+    designation: full driving automation
+  - type: expression
+    designation: level 5 Automated Driving System
+  definition:
+  - content: "{{ADS}} that is capable of unconditional (i.e. not {{operational design
+      domain,ODD}}-specific) operation and providing its own {{fallback}}, without
+      any expectation that a human {{driver}} will respond to a request to intervene"
+  notes:
+  - content: Other driving automation levels include "__level 1 driving automation__"
+      ({{level 1 driving automation,3.7.3.8,options="noref,noital,linkmention"}}),
+      "__level 2 driving automation__" ({{level 2 driving automation,3.7.3.9,options="noref,noital,linkmention"}}),
+      "__level 3 ADS__" ({{level 3 ADS,3.7.3.11,options="noref,noital,linkmention"}})
+      and "__level 4 ADS__" ({{level 4 ADS,3.7.3.12,options="noref,noital,linkmention"}}).
+  examples: []
+  language_code: eng

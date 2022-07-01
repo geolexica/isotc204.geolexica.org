@@ -1,0 +1,17 @@
+---
+termid: 3.5.13.6
+term: public transport app
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: public transport app
+  definition:
+  - content: "{{mobility app}} that assists a {{transport user}} in using a {{public
+      transport}} {{system}}"
+  notes:
+  - content: A public transport app can include features such as viewing maps, searching
+      routes and schedules, real-time arrival information, ticketing, electronic boarding
+      pass, etc.
+  examples: []
+  language_code: eng

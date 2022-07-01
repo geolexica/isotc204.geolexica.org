@@ -1,0 +1,14 @@
+---
+termid: 3.6.2.2
+term: vehicle occupant
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: vehicle occupant
+  definition:
+  - content: "{{person}} in or on a {{vehicle}}"
+  notes:
+  - content: A vehicle occupant in a stationary vehicle is not necessarily a {{traveller}}.
+  examples: []
+  language_code: eng

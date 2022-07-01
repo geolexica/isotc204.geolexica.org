@@ -1,0 +1,17 @@
+---
+termid: 3.5.2.3
+term: transport user
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: transport user
+  - type: expression
+    designation: user
+  - type: expression
+    designation: consumer
+  definition:
+  - content: "<transport> {{entity}} that has a {{transport need}} to be fulfilled"
+  notes: []
+  examples: []
+  language_code: eng

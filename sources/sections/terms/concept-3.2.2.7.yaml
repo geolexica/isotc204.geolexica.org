@@ -1,0 +1,14 @@
+---
+termid: 3.2.2.7
+term: traffic regulation central system
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: traffic regulation central system
+  definition:
+  - content: "{{central system,centre system}} that officially records traffic regulations
+      in electronic form so that they can be distributed to other systems"
+  notes: []
+  examples: []
+  language_code: eng

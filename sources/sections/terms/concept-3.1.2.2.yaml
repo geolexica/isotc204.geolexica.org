@@ -1,0 +1,17 @@
+---
+termid: 3.1.2.2
+term: transport system
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: transport system
+  definition:
+  - content: "{{system}} of infrastructure {{element,elements}} and optionally {{vehicle,vehicles}}
+      that are jointly designed to move {{material entity,material entities}} from
+      an origin to a destination"
+  notes:
+  - content: Transport systems can also include any supporting system, such as information
+      and control systems.
+  examples: []
+  language_code: eng

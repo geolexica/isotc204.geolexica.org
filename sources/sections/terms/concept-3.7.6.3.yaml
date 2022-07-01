@@ -1,0 +1,14 @@
+---
+termid: 3.7.6.3
+term: motor vehicle
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: motor vehicle
+  definition:
+  - content: "{{motorized vehicle,motorized}} {{road vehicle}} allowed to operate
+      in the same {{driving space,driving spaces}} as motorized {{passenger}} cars"
+  notes: []
+  examples: []
+  language_code: eng
