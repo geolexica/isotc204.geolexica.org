@@ -1,0 +1,17 @@
+---
+termid: 3.3.1.11
+term: verge
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: verge
+  definition:
+  - content: unpaved part of the {{roadside}} designed for travel safety purposes
+  notes:
+  - content: A verge can separate two {{lane,lanes}} of different modes, separate
+      a {{traffic lane}} from a ditch, or separate a lane from another safety hazard.
+  - content: Roadside, {{shoulder}} and verge define similar but slightly different
+      concepts.
+  examples: []
+  language_code: eng

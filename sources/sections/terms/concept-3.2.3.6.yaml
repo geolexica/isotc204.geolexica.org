@@ -1,0 +1,20 @@
+---
+termid: 3.2.3.6
+term: connected
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: connected
+  - type: expression
+    designation: ITS connected
+  definition:
+  - content: characteristic of a {{material entity}} that is equipped with enabled
+      (i.e. on) and operational electronic communication technologies to support {{ITS
+      service,ITS services}}, including the means to send and receive data to and
+      from other connected entities
+  notes:
+  - content: The term "connected" does not imply support for any specific communications
+      interface or _ITS-S application_ {{ITS-S application process,process}}.
+  examples: []
+  language_code: eng

@@ -1,0 +1,16 @@
+---
+termid: 3.5.11.1
+term: shuttle service
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: shuttle service
+  definition:
+  - content: "{{shared transport service}} that transports {{passenger,passengers}}
+      between two specified {{location,locations}}"
+  notes:
+  - content: Each location can be defined as point, linear or {{area location,area
+      locations}}. However, the areas of the two locations should not overlap.
+  examples: []
+  language_code: eng

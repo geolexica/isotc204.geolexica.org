@@ -1,0 +1,15 @@
+---
+termid: 3.2.7.7
+term: ITS-S router
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ITS-S router
+  definition:
+  - content: "{{ITS station,ITS-S}} functionalities in an {{ITS-S node}} that enable
+      connecting two networks and forwarding packets not explicitly addressed to the
+      ITS-S node"
+  notes: []
+  examples: []
+  language_code: eng

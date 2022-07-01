@@ -1,0 +1,17 @@
+---
+termid: 3.7.4.4
+term: unequipped
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: unequipped
+  - type: expression
+    designation: ITS unequipped
+  definition:
+  - content: characteristic of a {{material entity}} that is not and has never been
+      equipped with communications equipment for sending data to or receiving data
+      from {{connected}} entities
+  notes: []
+  examples: []
+  language_code: eng

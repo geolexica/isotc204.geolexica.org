@@ -1,0 +1,21 @@
+---
+termid: 3.7.3.1
+term: dynamic driving task
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dynamic driving task
+  - type: expression
+    designation: DDT
+  definition:
+  - content: all real-time operational and tactical functions required to operate
+      a {{vehicle}} in on-road traffic
+  notes:
+  - content: The DDT includes lateral vehicle motion control, longitudinal vehicle
+      motion control, monitoring the driving {{environment}}, object and event response
+      execution, manoeuvre planning and enhancing conspicuity.
+  - content: The DDT excludes strategic functions such as trip scheduling and selection
+      of destinations and waypoints.
+  examples: []
+  language_code: eng

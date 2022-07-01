@@ -1,0 +1,17 @@
+---
+termid: 3.5.12.1
+term: bikesharing service
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: bikesharing service
+  - type: expression
+    designation: "*bicycle sharing service*"
+  definition:
+  - content: "{{shared vehicle service}} that shares bicycles"
+  notes:
+  - content: The term "bicycle sharing service" is admitted, but "bikesharing service"
+      is preferred as it has fewer syllables.
+  examples: []
+  language_code: eng

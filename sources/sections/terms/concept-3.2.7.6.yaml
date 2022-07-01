@@ -1,0 +1,21 @@
+---
+termid: 3.2.7.6
+term: ITS station host
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ITS station host
+  - type: expression
+    designation: ITS-S host
+  definition:
+  - content: "{{ITS station,ITS-S}} functionalities in an {{ITS-S node}} other than
+      the functionalities of an {{ITS-S router}}, ITS-S border router, ITS-S mobile
+      router or an ITS-S gateway"
+  notes:
+  - content: ITS-S border router and ITS-S mobile router are ITS-S routers with added
+      functionalities, which is why they are separately excluded in the above definition.
+  - content: ITS-S border router, ITS-S mobile router, and ITS-S gateway are defined
+      in <<ref_16,ISO 21217>>.
+  examples: []
+  language_code: eng

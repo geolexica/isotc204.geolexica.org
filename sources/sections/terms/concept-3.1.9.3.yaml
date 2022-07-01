@@ -1,0 +1,14 @@
+---
+termid: 3.1.9.3
+term: deployment architecture
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: deployment architecture
+  definition:
+  - content: "{{architecture}} that provides a vision of a specific deployment of
+      a {{system}} within a geographic area"
+  notes: []
+  examples: []
+  language_code: eng

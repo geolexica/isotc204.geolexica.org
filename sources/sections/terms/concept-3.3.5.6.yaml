@@ -1,0 +1,17 @@
+---
+termid: 3.3.5.6
+term: road link
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: road link
+  definition:
+  - content: "{{link}} representing a contiguous length of a {{road}} between two
+      {{node,nodes}} of operational or managerial significance"
+  notes:
+  - content: The operational characteristics of the nodes would relate to the type
+      of {{road model}}. For example, a traffic {{system}} can base its road links
+      on nodes that represent {{junction,junctions}} and road {{terminator,terminators}}.
+  examples: []
+  language_code: eng

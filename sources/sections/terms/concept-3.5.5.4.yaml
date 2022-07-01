@@ -1,0 +1,16 @@
+---
+termid: 3.5.5.4
+term: ITS-S communications need
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ITS-S communications need
+  - type: expression
+    designation: communication need
+  definition:
+  - content: "<ITS-S> {{user need,need}} for communication functionality that connects
+      an {{ITS station,ITS-S}} to other {{node,nodes}}"
+  notes: []
+  examples: []
+  language_code: eng

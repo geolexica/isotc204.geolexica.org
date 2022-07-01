@@ -1,0 +1,24 @@
+---
+termid: 3.7.3.12
+term: level 4 ADS
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: level 4 ADS
+  - type: expression
+    designation: high driving automation
+  - type: expression
+    designation: level 4 Automated Driving System
+  definition:
+  - content: "{{ADS}} that is capable of operating within a specific {{operational
+      design domain,ODD}} and providing its own {{fallback}}, without any expectation
+      that a human {{driver}} will respond to a request to intervene"
+  notes:
+  - content: Other driving automation levels include "__level 1 driving automation__"
+      ({{level 1 driving automation,3.7.3.8,options="noref,noital,linkmention"}}),
+      "__level 2 driving automation__" ({{level 2 driving automation,3.7.3.9,options="noref,noital,linkmention"}}),
+      "__level 3 ADS__" ({{level 3 ADS,3.7.3.11,options="noref,noital,linkmention"}}),
+      and "__level 5 ADS__" ({{level 5 ADS,3.7.3.13,options="noref,noital,linkmention"}}).
+  examples: []
+  language_code: eng

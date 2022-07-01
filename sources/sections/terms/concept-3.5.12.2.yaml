@@ -1,0 +1,17 @@
+---
+termid: 3.5.12.2
+term: carsharing service
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: carsharing service
+  - type: expression
+    designation: "*passenger car sharing service*"
+  definition:
+  - content: "{{shared vehicle service}} that shares {{passenger}} cars"
+  notes:
+  - content: The term "passenger car sharing service" is admitted but has the same
+      meaning.
+  examples: []
+  language_code: eng

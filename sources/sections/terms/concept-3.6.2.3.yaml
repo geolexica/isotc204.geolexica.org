@@ -1,0 +1,16 @@
+---
+termid: 3.6.2.3
+term: driver
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: driver
+  definition:
+  - content: "{{person}} that is currently responsible for the {{dynamic driving task}}
+      for the {{vehicle}}"
+  notes:
+  - content: The driver is typically on-board the vehicle but could be remote from
+      the vehicle or automated logic.
+  examples: []
+  language_code: eng

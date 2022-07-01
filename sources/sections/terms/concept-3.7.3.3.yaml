@@ -1,0 +1,21 @@
+---
+termid: 3.7.3.3
+term: fallback
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: fallback
+  - type: expression
+    designation: driving automation fallback
+  definition:
+  - content: "<driving automation> response by a {{person}} to perform the {{dynamic
+      driving task,DDT}} or by an {{ADS}} to achieve a minimal risk condition when
+      the response is triggered upon violation of the defined {{operational design
+      domain}} constraints or in response to a DDT performance-relevant {{driving
+      automation system}} failure"
+  notes:
+  - content: This term includes the response of a person to perform the DDT in a manner
+      to quickly achieve a minimal risk condition.
+  examples: []
+  language_code: eng

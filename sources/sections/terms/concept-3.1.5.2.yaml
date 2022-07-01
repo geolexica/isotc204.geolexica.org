@@ -1,0 +1,13 @@
+---
+termid: 3.1.5.2
+term: access layer
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: access layer
+  definition:
+  - content: protocol layer that contains the OSI physical and data link layer protocols
+  notes: []
+  examples: []
+  language_code: eng

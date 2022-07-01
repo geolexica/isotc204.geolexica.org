@@ -1,0 +1,14 @@
+---
+termid: 3.2.9.6
+term: ITS-S application installation
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ITS-S application installation
+  definition:
+  - content: "{{ITS-S application process installation}} within the {{application
+      entity}}"
+  notes: []
+  examples: []
+  language_code: eng

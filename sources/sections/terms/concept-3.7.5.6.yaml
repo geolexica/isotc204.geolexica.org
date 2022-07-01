@@ -1,0 +1,16 @@
+---
+termid: 3.7.5.6
+term: high-speed vehicle
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: high-speed vehicle
+  definition:
+  - content: "{{vehicle}} with a {{design speed}} in the range of {{high vehicle speed,high
+      vehicle speeds}}"
+  notes: []
+  examples:
+  - content: Racing car.
+  - content: High-speed train
+  language_code: eng

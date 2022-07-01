@@ -1,0 +1,18 @@
+---
+termid: 3.3.5.7
+term: road section
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: road section
+  definition:
+  - content: aggregation of one or more {{road link,road links}} that represents a
+      contiguous length of a {{road}} that shares the same management and operational
+      strategies
+  notes:
+  - content: Different {{road model,road models}} can divide the same road into different
+      road sections.
+  examples:
+  - content: A traffic signal timing plan is applied to one road section.
+  language_code: eng

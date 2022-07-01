@@ -1,0 +1,20 @@
+---
+termid: 3.3.3.2
+term: cycleway
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: cycleway
+  - type: expression
+    designation: cycle track
+  definition:
+  - content: infrastructure primarily designed for the use of cycles and separate
+      from a {{carriageway}}
+  notes:
+  - content: Local legislation can allow cycleways to be used by a variety of {{low-speed
+      vehicle,low-speed vehicles}} (e.g. low-speed scooters, skateboards, etc.) and
+      can share usage of other low-speed modes such as {{pedestrian,pedestrians}},
+      horseback riders, etc.
+  examples: []
+  language_code: eng

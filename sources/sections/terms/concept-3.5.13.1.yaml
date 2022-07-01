@@ -1,0 +1,15 @@
+---
+termid: 3.5.13.1
+term: mobility app
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: mobility app
+  definition:
+  - content: "{{ITS-S application implementation}} designed to assist an individual
+      transport consumer in understanding transport-related information, making decisions,
+      and/or acting upon decisions"
+  notes: []
+  examples: []
+  language_code: eng

@@ -1,0 +1,14 @@
+---
+termid: 3.7.6.4
+term: non-road vehicle
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: non-road vehicle
+  definition:
+  - content: "{{vehicle}} not meeting the legal requirements to be driven in {{traffic
+      lane,traffic lanes}} or {{cycle lane,cycle lanes}} of a {{road network}}"
+  notes: []
+  examples: []
+  language_code: eng

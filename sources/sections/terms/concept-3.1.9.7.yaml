@@ -1,0 +1,13 @@
+---
+termid: 3.1.9.7
+term: ITS deployment architecture
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ITS deployment architecture
+  definition:
+  - content: "{{deployment architecture}} for one or more {{ITS service,ITS services}}"
+  notes: []
+  examples: []
+  language_code: eng

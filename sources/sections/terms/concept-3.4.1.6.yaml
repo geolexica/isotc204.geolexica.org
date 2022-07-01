@@ -1,0 +1,20 @@
+---
+termid: 3.4.1.6
+term: area location
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: area location
+  - type: expression
+    designation: ITS area location
+  definition:
+  - content: "{{spatial location}} enclosed within a two-dimensional boundary or boundaries
+      across a defined surface"
+  notes:
+  - content: The boundary can consist of a single curvilinear line (e.g. a circle)
+      or multiple curvilinear lines (e.g. the boundaries of city limits) and can consist
+      of multiple enclosed areas.
+  examples:
+  - content: The British Isles.
+  language_code: eng

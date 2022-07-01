@@ -1,0 +1,20 @@
+---
+termid: 3.1.10.3
+term: data dictionary
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: data dictionary
+  definition:
+  - content: collection of {{data concept,data concepts}} that allows lookup by {{entity}}
+      identifier
+  notes: []
+  examples: []
+  language_code: eng
+  sources:
+  - type: authoritative
+    origin:
+      ref: ref_17,ISO 22745-2:2010,B.2.16
+    modification: '"collection of data dictionary entries..." replaced with "collection
+      of data concepts...".'

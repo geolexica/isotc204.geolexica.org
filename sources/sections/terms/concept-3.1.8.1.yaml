@@ -1,0 +1,23 @@
+---
+termid: 3.1.8.1
+term: physical object
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: physical object
+  - type: expression
+    designation: ITS physical object
+  definition:
+  - content: "<physical view> abstraction of a {{material entity}} that interacts
+      with other abstract material entities in the provision of {{ITS service,ITS
+      services}}"
+  notes:
+  - content: Physical objects are represented as {{element,elements}} within the {{physical
+      view}} and perform a role. Physical objects can be implemented as cloud-based
+      {{system,systems}}.
+  - content: 'Within many {{ITS reference architecture,ITS reference architectures}},
+      physical objects are placed into one of five categories: centre, support, field,
+      vehicle or {{traveller}}.'
+  examples: []
+  language_code: eng

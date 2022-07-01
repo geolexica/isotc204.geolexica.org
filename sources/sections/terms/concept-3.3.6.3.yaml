@@ -1,0 +1,13 @@
+---
+termid: 3.3.6.3
+term: ingress lane
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ingress lane
+  definition:
+  - content: "{{traffic lane}} designed for entering a {{junction}}"
+  notes: []
+  examples: []
+  language_code: eng

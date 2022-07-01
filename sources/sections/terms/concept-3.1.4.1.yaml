@@ -1,0 +1,15 @@
+---
+termid: 3.1.4.1
+term: communications view
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: communications view
+  definition:
+  - content: "{{architecture view}} from the {{communications viewpoint}}"
+  notes:
+  - content: Within ITS, the preferred model for describing the communications view
+      is based on the {{ITS-S reference architecture}}.
+  examples: []
+  language_code: eng

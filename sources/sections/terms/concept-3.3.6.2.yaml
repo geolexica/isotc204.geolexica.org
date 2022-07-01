@@ -1,0 +1,13 @@
+---
+termid: 3.3.6.2
+term: junction
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: junction
+  definition:
+  - content: "{{intersection}} that allows {{traveller,travellers}} to change {{road,roads}}"
+  notes: []
+  examples: []
+  language_code: eng

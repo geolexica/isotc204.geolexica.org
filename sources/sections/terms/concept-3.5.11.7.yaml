@@ -1,0 +1,15 @@
+---
+termid: 3.5.11.7
+term: courier network service
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: courier network service
+  definition:
+  - content: "{{commercial}}, {{peer-to-peer}} {{shared transport service}} that transports
+      goods"
+  notes:
+  - content: The goods are typically small packages, letters, food, etc.
+  examples: []
+  language_code: eng

@@ -1,0 +1,14 @@
+---
+termid: 3.2.2.5
+term: public transport central management system
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: public transport central management system
+  definition:
+  - content: "{{central system,centre system}} that allows an {{entity}} to manage
+      the activities of a {{public transport}} agency"
+  notes: []
+  examples: []
+  language_code: eng

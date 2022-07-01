@@ -1,0 +1,21 @@
+---
+termid: 3.3.1.2
+term: road reservation
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: road reservation
+  - type: expression
+    designation: easement
+  definition:
+  - content: area legally reserved for {{road}} transport purposes and support
+  notes:
+  - content: Support includes physical equipment such as safety devices, signage and
+      controller cabinets as well as access by maintenance vehicles and personnel.
+  - content: The road reservation includes all {{carriageway,carriageways}} as well
+      as width to allow for {{roadside}} devices, {{shoulder,shoulders}}, {{verge,verges}},
+      {{footway,footways}}, drainage facilities, sound walls, slopes, embankments,
+      etc.
+  examples: []
+  language_code: eng

@@ -1,0 +1,18 @@
+---
+termid: 3.3.6.8
+term: junction at grade
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: junction at grade
+  - type: expression
+    designation: at-grade intersection
+  - type: expression
+    designation: "*grade junction*"
+  definition:
+  - content: "{{junction}} without any {{grade separated manoeuvre,grade separated
+      manoeuvres}}"
+  notes: []
+  examples: []
+  language_code: eng

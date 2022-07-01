@@ -1,0 +1,27 @@
+---
+termid: 3.3.1.7
+term: single carriageway road segment
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: single carriageway road segment
+  - type: expression
+    designation: single carriageway road
+  - type: expression
+    designation: "*single carriageway*"
+  - type: expression
+    designation: "*undivided highway*"
+  definition:
+  - content: "{{roadway}} comprised of exactly one {{carriageway}}"
+  notes:
+  - content: The World Road Association (PIARC) term is "single carriageway road"
+      and is recognized as a preferred term. As per the definitions provided in this
+      document, "single carriageway road segment" is more accurate and is the most
+      preferred term. The term "single carriageway" by itself is not preferred but
+      admitted.
+  - content: A single carriageway road segment could have multiple {{lane,lanes}}
+      and could allow travel in opposite directions
+  - content: The term "undivided highway" is the equivalent American English term.
+  examples: []
+  language_code: eng

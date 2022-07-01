@@ -1,0 +1,16 @@
+---
+termid: 3.5.5.1
+term: ITS-S communications process
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ITS-S communications process
+  - type: expression
+    designation: communication process
+  definition:
+  - content: "<ITS-S> {{entity}} that delivers one or more {{ITS-S communications
+      service,ITS-S communication services}}"
+  notes: []
+  examples: []
+  language_code: eng

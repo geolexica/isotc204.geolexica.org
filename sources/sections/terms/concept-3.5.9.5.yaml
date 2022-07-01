@@ -1,0 +1,20 @@
+---
+termid: 3.5.9.5
+term: dynamic route
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dynamic route
+  definition:
+  - content: "<transport service> {{concurrent}} operation where transported items
+      can only be received or delivered at stopping points within a pre-defined {{service}}
+      corridor"
+  notes:
+  - content: The service corridor is defined by the provider, who may impose further
+      restrictions on where stops are allowed.
+  - content: The service corridor often includes a communal point of interest (e.g.
+      an airport, transit hub, etc.) as a fixed stopping point.
+  examples:
+  - content: Airport shuttle.
+  language_code: eng

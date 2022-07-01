@@ -1,0 +1,18 @@
+---
+termid: 3.3.5.1
+term: road
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: road
+  definition:
+  - content: curvilinear length of {{roadway}} that shares the same identification
+  notes:
+  - content: A length of the {{road network}} may be referenced by multiple designators
+      (e.g. Main Street and Route 7). In this case, there would be two "roads" that
+      share the same set of "__carriageways__" ({{carriageway,3.3.1.5,options="noref,noital,linkmention"}}).
+  - content: A road can change directions at a {{junction}}.
+  - content: The identification is generally a name or number.
+  examples: []
+  language_code: eng

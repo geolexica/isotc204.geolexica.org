@@ -1,0 +1,16 @@
+---
+termid: 3.1.4.7
+term: physical view
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: physical view
+  definition:
+  - content: "{{architecture view}} from the {{physical viewpoint}}"
+  notes:
+  - content: The term "deployment view" is sometimes used within the broader ICT community,
+      but the term "physical view" is preferred to prevent confusion between the physical
+      view of a reference architecture and any part of a {{deployment architecture}}.
+  examples: []
+  language_code: eng

@@ -1,0 +1,20 @@
+---
+termid: 3.1.11.6
+term: interface dialogue
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: interface dialogue
+  - type: expression
+    designation: "*dialog*"
+  - type: expression
+    designation: "*dialogue*"
+  definition:
+  - content: bi-directional communication sequence between two parties in accordance
+      with predetermined protocols
+  notes:
+  - content: The term "dialog" represents the American English spelling.
+  - content: The term "dialogue" can be used when the interface context is known.
+  examples: []
+  language_code: eng

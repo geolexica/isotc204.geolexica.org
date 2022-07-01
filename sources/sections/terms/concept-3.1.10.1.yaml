@@ -1,0 +1,21 @@
+---
+termid: 3.1.10.1
+term: data concept
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: data concept
+  definition:
+  - content: "{{data element}}, {{class}}, {{value domain}}, {{data frame}}, {{message}}
+      or {{interface dialogue}} defined, at a minimum, with an unambiguous identifier
+      and a definition"
+  notes:
+  - content: In order to exchange a value corresponding to a data concept, more information
+      than an identifier, a name and a definition can be needed. For a property, a
+      data type is needed. Depending on the kind of property, other data elements
+      such as unit of measure, and language, can be needed as well. The additional
+      information can be given in the {{data dictionary}}, in a data specification
+      that references the data concept or associated with the data themselves.
+  examples: []
+  language_code: eng

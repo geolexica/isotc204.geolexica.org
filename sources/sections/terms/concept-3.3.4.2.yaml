@@ -1,0 +1,20 @@
+---
+termid: 3.3.4.2
+term: hard shoulder running
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: hard shoulder running
+  definition:
+  - content: |-
+      operating mode of a {{hard shoulder}} that allows operation of general-purpose {{motor vehicle,motor vehicles}} as an extra {{lane}}  +
+
+
+
+
+
+      <<<
+  notes: []
+  examples: []
+  language_code: eng

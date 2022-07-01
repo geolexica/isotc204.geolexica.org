@@ -1,0 +1,13 @@
+---
+termid: 3.5.1.2
+term: service provider
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: service provider
+  definition:
+  - content: "{{entity}} that delivers one or more {{service,services}}"
+  notes: []
+  examples: []
+  language_code: eng

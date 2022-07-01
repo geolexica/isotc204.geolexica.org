@@ -1,0 +1,23 @@
+---
+termid: 3.7.3.9
+term: level 2 driving automation
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: level 2 driving automation
+  - type: expression
+    designation: partial driving automation
+  definition:
+  - content: "{{driver support system}} that provides sustained lateral and longitudinal
+      {{vehicle}} motion control within a specific {{operational design domain}} with
+      the expectation that a {{in-vehicle driver,conventional driver}} completes the
+      object and event detection and response"
+  notes:
+  - content: Other driving automation levels include "__level 1 driving automation__"
+      ({{level 1 driving automation,3.7.3.8,options="noref,noital,linkmention"}}),
+      "__level 3 ADS__" ({{level 3 ADS,3.7.3.11,options="noref,noital,linkmention"}}),
+      "__level 4 ADS__" ({{level 4 ADS,3.7.3.12,options="noref,noital,linkmention"}}),
+      and "__level 5 ADS__" ({{level 5 ADS,3.7.3.13,options="noref,noital,linkmention"}}).
+  examples: []
+  language_code: eng

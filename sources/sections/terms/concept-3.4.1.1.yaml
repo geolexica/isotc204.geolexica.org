@@ -1,0 +1,15 @@
+---
+termid: 3.4.1.1
+term: location
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: location
+  definition:
+  - content: particular place or position
+  notes:
+  - content: The term "location" by itself is a broad term that can be used to reference
+      spatial, computer memory, imaginary and other locations.
+  examples: []
+  language_code: eng

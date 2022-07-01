@@ -1,0 +1,17 @@
+---
+termid: 3.7.4.2
+term: unconnected
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: unconnected
+  - type: expression
+    designation: ITS unconnected
+  definition:
+  - content: characteristic of a {{material entity}} that is equipped with communications
+      equipment that is not active or is otherwise unable to send data to or receive
+      data from {{connected}} entities
+  notes: []
+  examples: []
+  language_code: eng

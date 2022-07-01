@@ -1,0 +1,26 @@
+---
+termid: 3.3.1.8
+term: dual carriageway road segment
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dual carriageway road segment
+  - type: expression
+    designation: dual carriageway road
+  - type: expression
+    designation: "*divided highway*"
+  - type: expression
+    designation: "*dual carriageway*"
+  definition:
+  - content: "{{roadway}} comprised of exactly two {{carriageway,carriageways}}"
+  notes:
+  - content: The PIARC term is "dual carriageway road" and is recognized as a preferred
+      term. As per the definitions provided in this document, "dual carriageway road
+      segment" is more accurate and is the most preferred term. The term "dual carriageway"
+      by itself is not preferred but admitted.
+  - content: The term "divided highway" is the equivalent American English term and
+      equates to two or more carriageways.
+  - content: The two carriageways are typically designed for travel in opposite directions.
+  examples: []
+  language_code: eng

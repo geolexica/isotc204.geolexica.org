@@ -1,0 +1,24 @@
+---
+termid: 3.4.2.2
+term: spatial reference
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: spatial reference
+  - type: expression
+    designation: ITS spatial reference
+  - type: expression
+    designation: "*location reference*"
+  definition:
+  - content: description of a {{spatial location}} in the real world according to
+      a defined reference system
+  notes:
+  - content: It is not necessary for the rules be formal coordinates but they could
+      be descriptive.
+  - content: The term "location reference" has been used within ITS, but the term
+      "spatial reference" is preferred to better align with the activities of ISO/TC
+      211.
+  examples:
+  - content: 'Coordinate tuple: 51.476852, -0.000500.'
+  language_code: eng

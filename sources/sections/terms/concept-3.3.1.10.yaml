@@ -1,0 +1,16 @@
+---
+termid: 3.3.1.10
+term: roadside
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: roadside
+  definition:
+  - content: portion of the {{road reservation}} excluding all {{roadway}} and {{driving
+      space,driving space(s)}}
+  notes:
+  - content: Roadside, {{shoulder}} and {{verge}} define similar but slightly different
+      concepts
+  examples: []
+  language_code: eng

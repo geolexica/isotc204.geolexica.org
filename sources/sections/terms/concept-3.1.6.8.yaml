@@ -1,0 +1,16 @@
+---
+termid: 3.1.6.8
+term: relationship
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: relationship
+  - type: expression
+    designation: enterprise view relationship
+  definition:
+  - content: "<enterprise view> {{element}} that represents an association between
+      two {{resource,resources}}"
+  notes: []
+  examples: []
+  language_code: eng

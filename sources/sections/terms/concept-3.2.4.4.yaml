@@ -1,0 +1,17 @@
+---
+termid: 3.2.4.4
+term: public information device
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: public information device
+  - type: expression
+    designation: ITS public information device
+  definition:
+  - content: "{{personal system}} that provides {{commercial,public}} access to {{traveller}}
+      information"
+  notes: []
+  examples:
+  - content: Kiosk.
+  language_code: eng

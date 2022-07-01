@@ -1,0 +1,14 @@
+---
+termid: 3.2.8.1
+term: ITS application
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ITS application
+  definition:
+  - content: realization of an {{ITS service}} that involves an association of two
+      or more complementary {{ITS-S application process,ITS-S application processes}}
+  notes: []
+  examples: []
+  language_code: eng

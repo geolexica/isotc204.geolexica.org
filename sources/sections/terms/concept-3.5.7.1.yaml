@@ -1,0 +1,18 @@
+---
+termid: 3.5.7.1
+term: 'contractual model '
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'contractual model '
+  - type: expression
+    designation: shared mobility contract model
+  definition:
+  - content: legal framework for the agreement between a {{service provider}} and
+      a {{user}}
+  notes:
+  - content: Contracts can be via a third party, implied or verbal, especially in
+      the case of {{peer-to-peer}}.
+  examples: []
+  language_code: eng

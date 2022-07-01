@@ -1,0 +1,14 @@
+---
+termid: 3.5.8.5
+term: mutual benefit
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: mutual benefit
+  definition:
+  - content: "{{cooperative}} {{financial model}} where {{user,users}} partner on
+      a per-use basis"
+  notes: []
+  examples: []
+  language_code: eng

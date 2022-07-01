@@ -1,0 +1,17 @@
+---
+termid: 3.1.6.9
+term: include
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: include
+  - type: expression
+    designation: enterprise view include
+  definition:
+  - content: "<enterprise view> {{relationship}} where one {{resource}} contains another
+      resource"
+  notes: []
+  examples:
+  - content: Every ITS component includes one or more {{module,modules}}.
+  language_code: eng

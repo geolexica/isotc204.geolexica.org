@@ -1,0 +1,22 @@
+---
+termid: 3.5.6.2
+term: shared transport service
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: shared transport service
+  definition:
+  - content: "{{transport service}} that relies upon the same {{resource,resources}}
+      to fulfil the _transport_ {{transport need,needs}} of multiple unrelated {{transport
+      user,transport users}} and where the {{transport provider}} has the primary
+      responsibility for the operation of the transport mode"
+  notes:
+  - content: A shared transport service might not be dependent upon a vehicle and/or
+      could be multi-modal. For example, a letter courier service could rely on walking
+      and {{public transport}}.
+  - content: Responsibilities of the transport service can be further delegated to
+      others. For example, a courier service relying on public transport would delegate
+      the operation of the transport mode to the public transport operator.
+  examples: []
+  language_code: eng

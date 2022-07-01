@@ -1,0 +1,15 @@
+---
+termid: 3.7.1.2
+term: motor
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: motor
+  - type: expression
+    designation: "*engine*"
+  definition:
+  - content: "{{material entity}} that converts energy into mechanical motion"
+  notes: []
+  examples: []
+  language_code: eng

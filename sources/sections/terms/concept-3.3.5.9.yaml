@@ -1,0 +1,18 @@
+---
+termid: 3.3.5.9
+term: lane link
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: lane link
+  definition:
+  - content: "{{link}} that represents a {{lane}} of a {{road link}}"
+  notes:
+  - content: A {{lane segment}} can start or end at {{location,locations}} other than
+      the start or end of the corresponding {{road segment}} (e.g. a lane can start
+      mid-block).
+  - content: A lane segment only includes the{{sequential}} lane links, it does not
+      include lane links from adjacent lanes.
+  examples: []
+  language_code: eng

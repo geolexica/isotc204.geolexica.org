@@ -1,0 +1,14 @@
+---
+termid: 3.5.13.8
+term: taxi hailing app
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: taxi hailing app
+  definition:
+  - content: "{{mobility app}} that assists a {{transport user}} in electronically
+      requesting a taxi"
+  notes: []
+  examples: []
+  language_code: eng

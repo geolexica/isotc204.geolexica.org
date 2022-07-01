@@ -1,0 +1,16 @@
+---
+termid: 3.3.1.1
+term: cross-section
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: cross-section
+  definition:
+  - content: transverse view of {{road}} geometry
+  notes:
+  - content: The transverse view provides a vertical section of the ground and {{carriageway}}
+      at right angles to the centre line of the carriageway.
+  examples:
+  - content: "<<fig_A.23>>."
+  language_code: eng

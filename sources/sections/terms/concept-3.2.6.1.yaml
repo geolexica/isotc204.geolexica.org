@@ -1,0 +1,26 @@
+---
+termid: 3.2.6.1
+term: ITS on-board equipment
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ITS on-board equipment
+  - type: expression
+    designation: on-board equipment
+  - type: expression
+    designation: OBE
+  - type: expression
+    designation: "*onboard equipment*"
+  definition:
+  - content: "{{vehicle system}} that provides all ITS functionality on-board the
+      {{vehicle}}"
+  notes:
+  - content: ITS on-board equipment relates to any functionality. When there is a
+      need to distinguish between core functionality and that by a special vehicle,
+      the term can be further refined by indicating the type of vehicle to which the
+      on-board equipment relates. For example, emergency vehicle on-board equipment
+      can provide specialized functionality.
+  - content: The on-board equipment may also perform other functions.
+  examples: []
+  language_code: eng

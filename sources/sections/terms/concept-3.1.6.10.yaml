@@ -1,0 +1,17 @@
+---
+termid: 3.1.6.10
+term: extend
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: extend
+  - type: expression
+    designation: enterprise view extend
+  definition:
+  - content: "<enterprise view> {{relationship}} where one {{resource}} supplements
+      another resource"
+  notes: []
+  examples:
+  - content: A {{module}} can extend the functionality of another module.
+  language_code: eng

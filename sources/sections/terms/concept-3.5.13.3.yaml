@@ -1,0 +1,14 @@
+---
+termid: 3.5.13.3
+term: navigation app
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: navigation app
+  definition:
+  - content: "{{mobility app}} that assists a {{transport user}} to determine the
+      best route to a destination"
+  notes: []
+  examples: []
+  language_code: eng

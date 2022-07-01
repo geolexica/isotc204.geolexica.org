@@ -1,0 +1,20 @@
+---
+termid: 3.2.8.5
+term: ITS implementation
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ITS implementation
+  definition:
+  - content: integration of each {{physical object}} necessary to implement one or
+      more {{ITS application,ITS applications}}
+  notes:
+  - content: An ITS application typically requires multiple components (e.g. an ITS-S
+      acting as a user and another ITS-S acting as a provider). An ITS implementation
+      includes a sample of each component necessary for the service but often does
+      not represent a complete deployment.
+  - content: An ITS implementation is typically used for a laboratory or other experimental
+      {{environment}} prior to a full-scale deployment.
+  examples: []
+  language_code: eng

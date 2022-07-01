@@ -1,0 +1,16 @@
+---
+termid: 3.2.5.2
+term: map provision system
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: map provision system
+  - type: expression
+    designation: ITS map provision system
+  definition:
+  - content: "{{support system}} that provides map databases used to support {{ITS
+      service,ITS services}}"
+  notes: []
+  examples: []
+  language_code: eng

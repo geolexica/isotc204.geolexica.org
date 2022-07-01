@@ -1,0 +1,21 @@
+---
+termid: 3.7.2.2
+term: design speed
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: design speed
+  - type: expression
+    designation: vehicle design speed
+  - type: expression
+    designation: "*top speed*"
+  definition:
+  - content: "<vehicle> maximum {{speed}} at which a {{vehicle}} is intended to operate
+      for a sustained period of time"
+  notes:
+  - content: The term "top speed" is defined in <<SAE_J3194,SAE J3194>> in relation
+      to powered micromobility vehicles and is considered to be semantically equivalent
+      to design speed.
+  examples: []
+  language_code: eng

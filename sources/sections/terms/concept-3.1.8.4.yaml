@@ -1,0 +1,13 @@
+---
+termid: 3.1.8.4
+term: information flow
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: information flow
+  definition:
+  - content: information that is exchanged between {{physical object,physical objects}}
+  notes: []
+  examples: []
+  language_code: eng

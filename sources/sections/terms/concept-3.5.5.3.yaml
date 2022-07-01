@@ -1,0 +1,16 @@
+---
+termid: 3.5.5.3
+term: ITS-S communications user
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ITS-S communications user
+  - type: expression
+    designation: communication user
+  definition:
+  - content: "<ITS-S> {{entity}} that has an {{ITS-S communications need,ITS-S communication
+      need}} to be fulfilled"
+  notes: []
+  examples: []
+  language_code: eng

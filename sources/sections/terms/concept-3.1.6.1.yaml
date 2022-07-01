@@ -1,0 +1,14 @@
+---
+termid: 3.1.6.1
+term: enterprise object
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: enterprise object
+  definition:
+  - content: "{{element}} within an {{enterprise view}} that represents an organization
+      or individual"
+  notes: []
+  examples: []
+  language_code: eng

@@ -1,0 +1,22 @@
+---
+termid: 3.3.6.1
+term: intersection
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: intersection
+  definition:
+  - content: space where two or more {{road,roads}} meet or cross
+  notes:
+  - content: Intersections can be associated with zero {{junction,junctions}}, such
+      as a motorway crossing a road without any connecting ramps, or can be associated
+      with one or more junctions, such as a diamond {{interchange}}.
+  - content: Complex intersections can be viewed as multiple intersections by providing
+      separate designations for distinct {{road link,road links}}. For example, one
+      model could depict a complex intersection as being associated with multiple
+      junctions; another model could depict the same physical infrastructure as being
+      multiple intersections that are interconnected by different roads, each with
+      its own designator (e.g. "ramp from northbound Road A to eastbound Road B").
+  examples: []
+  language_code: eng

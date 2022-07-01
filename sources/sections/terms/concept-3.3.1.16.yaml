@@ -1,0 +1,17 @@
+---
+termid: 3.3.1.16
+term: lay-by
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: lay-by
+  definition:
+  - content: short length of paved {{carriageway}} at its edge designed to allow a
+      {{vehicle}} to draw out of the {{traffic lane,traffic lanes}} and stop temporarily
+  notes:
+  - content: Lay-bys are not part of a {{hard shoulder}}.
+  - content: Lay-bys can be used for emergency situations, picking up/dropping off
+      {{passenger,passengers}}, etc.
+  examples: []
+  language_code: eng

@@ -1,0 +1,14 @@
+---
+termid: 3.2.2.8
+term: transport information central system
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: transport information central system
+  definition:
+  - content: "{{central system,centre system}} that provides information of interest
+      to the travelling public"
+  notes: []
+  examples: []
+  language_code: eng

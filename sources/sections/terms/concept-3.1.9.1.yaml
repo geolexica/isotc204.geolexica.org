@@ -1,0 +1,16 @@
+---
+termid: 3.1.9.1
+term: reference architecture
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: reference architecture
+  definition:
+  - content: "{{architecture}} that provides a template solution for {{planning architecture,planning}}
+      and {{deployment architecture,deployment architectures}}"
+  notes:
+  - content: Interface standards are based on a reference architecture, which should
+      be explicitly described.
+  examples: []
+  language_code: eng

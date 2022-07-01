@@ -1,0 +1,22 @@
+---
+termid: 3.3.1.12
+term: lane
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: lane
+  - type: expression
+    designation: generic lane
+  definition:
+  - content: "<generic> portion of {{road reservation}} intended to accommodate a
+      single line of moving {{material entity,material entities}} along its length"
+  notes:
+  - content: "{{lane,Lanes}} are often bounded by lane markings."
+  - content: Lanes may be significantly wider than the normal vehicle width to allow
+      variance in lane position of the vehicle as well as for various vehicle dimensions.
+  - content: The "lane" nomenclature typically refers to {{motor vehicle}} usage,
+      but can also refer to other purposes, such as {{sidewalk,sidewalks}}.
+  examples:
+  - content: "{{traffic lane,Traffic lane}}, {{cycle lane}}, {{sidewalk}}."
+  language_code: eng

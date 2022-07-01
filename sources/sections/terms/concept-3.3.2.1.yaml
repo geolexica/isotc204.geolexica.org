@@ -1,0 +1,17 @@
+---
+termid: 3.3.2.1
+term: physical traffic separator
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: physical traffic separator
+  definition:
+  - content: mechanism used to physically separate {{carriageway,carriageways}}
+  notes:
+  - content: Mechanisms include various types of barriers, such as walls, rails, pylons,
+      kerbs and ditches, as well as open, unpaved space. If two streams of traffic
+      are only separated by paved space (including any markings and rumble strips),
+      they share a common carriageway.
+  examples: []
+  language_code: eng

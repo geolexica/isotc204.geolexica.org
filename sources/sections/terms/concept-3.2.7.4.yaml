@@ -1,0 +1,17 @@
+---
+termid: 3.2.7.4
+term: ITS-S unit
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ITS-S unit
+  - type: expression
+    designation: ITS station unit
+  - type: expression
+    designation: ITS-SU
+  definition:
+  - content: instantiation of an {{ITS station}}
+  notes: []
+  examples: []
+  language_code: eng

@@ -1,0 +1,17 @@
+---
+termid: 3.2.4.3
+term: nomadic device
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: nomadic device
+  - type: expression
+    designation: ITS nomadic device
+  definition:
+  - content: "{{personal information device}} that is taken with and can be accessed
+      by the {{traveller}} during a journey"
+  notes: []
+  examples:
+  - content: Smartphone.
+  language_code: eng

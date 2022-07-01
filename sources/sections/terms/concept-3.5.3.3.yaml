@@ -1,0 +1,15 @@
+---
+termid: 3.5.3.3
+term: ITS user
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ITS user
+  - type: expression
+    designation: user
+  definition:
+  - content: "{{entity}} that has an {{ITS user need}} to be fulfilled"
+  notes: []
+  examples: []
+  language_code: eng

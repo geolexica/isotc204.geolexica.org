@@ -1,0 +1,17 @@
+---
+termid: 3.1.9.5
+term: ITS reference architecture
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ITS reference architecture
+  definition:
+  - content: "{{reference architecture}} for one or more {{ITS service,ITS services}}"
+  notes:
+  - content: An ITS architecture can be a reference, planning or {{deployment architecture}}.
+  - content: The Harmonised Architecture Reference for Technical Standards (HARTS;
+      http://htg7.org[see] Reference <<ref_26>>) is an example of an ITS reference
+      architecture.
+  examples: []
+  language_code: eng

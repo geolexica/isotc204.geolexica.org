@@ -1,0 +1,15 @@
+---
+termid: 3.1.4.2
+term: communications viewpoint
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: communications viewpoint
+  definition:
+  - content: "{{architecture viewpoint}} used to frame {{concern,concerns}} related
+      to all layers of the Open Systems Interconnection (OSI) stack and related management
+      and security issues"
+  notes: []
+  examples: []
+  language_code: eng

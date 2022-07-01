@@ -1,0 +1,14 @@
+---
+termid: 3.2.9.2
+term: ITS-S application process
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ITS-S application process
+  definition:
+  - content: "{{element}} in an {{ITS station}} that performs information processing
+      for an {{ITS-S service}}"
+  notes: []
+  examples: []
+  language_code: eng
