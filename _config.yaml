@@ -1,0 +1,117 @@
+source: _source
+
+title: "ISO/TC 204 Intelligent transport systems (ITS)"
+
+google_analytics:
+  id: UA-168998071-2
+
+committee:
+  identifier: TC 204
+  name: Intelligent transport systems
+  parent_org_name: ISO
+  main_logo:
+    path: /assets/logo-iso-noninverted.svg
+    alt_text: ISO
+  footer_logo:
+    path: /assets/logo-iso-noninverted.svg
+    alt_text: ISO organization
+    url: https://www.iso.org/
+
+font_awesome_kit_url: https://kit.fontawesome.com/77a8a07e0a.js
+
+has_brand_name: yes
+always_show_committee_link_on_landing: yes
+
+email: open.source@ribose.com
+
+tagline: >-
+  The authoritative
+  intelligent transport systems database
+
+description: >-
+  The authoritative glossary for intelligent transport systems from ISO/TC 204.
+
+baseurl: ""
+url: "https://isotc204.geolexica.org"
+
+social:
+  links:
+    - url: https://github.com/ISO-TC204/iso14812
+
+# algolia:
+#   application_id: NOP
+#   index_name: NOP
+#   search_only_api_key: NOP
+
+nav:
+  items:
+  - id: concepts
+    url: /concepts
+    title: Concepts
+    description: List of all concepts
+  - id: posts
+    url: /posts
+    title: News & Articles
+  - id: registers
+    url: /registers
+    title: Registers
+    description: Language registries of the Multi-Lingual Glossary of Terms
+  - id: stats
+    url: /stats
+    title: Statistics
+    description: Per-language term statistics
+  - id: about
+    url: /about
+    title: About
+
+footer_nav:
+  - url: https://committee.iso.org/home/tc204
+    title: ISO/TC 204
+
+powered_by:
+  url: https://open.ribose.com
+  title: Ribose
+  logo_path: /assets/logo-ribose.svg
+
+theme: jekyll-geolexica
+
+sass:
+  style: compressed
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      show_header_meta: true
+
+geolexica:
+  concepts_glob: "../isotc204-glossary/concepts/*.yaml"
+  math: true
+  term_languages:
+    - eng
+  formats:
+    - html
+    - json
+    - json-ld
+    - turtle
+  search:
+    refinements:
+      - validity
+
+tidy_json:
+  enabled: true
+  pretty: true
+
+plugins:
+  - jekyll-data
+  - jekyll-feed
+  - jekyll-geolexica
+  - jekyll-sitemap
+  - jekyll-tidy-json
+  - jekyll-plugin-frontend-build

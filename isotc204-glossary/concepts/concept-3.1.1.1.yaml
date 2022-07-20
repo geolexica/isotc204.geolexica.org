@@ -1,0 +1,33 @@
+---
+termid: 3.1.1.1
+term: entity
+eng:
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: entity
+  definition:
+  - content: concrete or abstract thing that exists, did exist, or can possibly exist,
+      including associations among these things
+  notes: []
+  examples:
+  - content: "{{person,Person}}, object, event, idea, process, etc."
+  language_code: eng
+  sources:
+  - type: authoritative
+    status: modified
+    origin:
+      ref: ISO/IEC Guide 99:2007
+      clause: '1.1'
+      link: https://www.iso.org/standard/45324.html
+      original: ISO/IEC Guide 99:2007, 1.1, modified – Deletion of NOTE 3 and NOTE
+        4, and some changes in the other notes.
+    modification: Deletion of NOTE 3 and NOTE 4, and some changes in the other notes.
+  - type: lineage
+    status: modified
+    origin:
+      clause: '1.1'
+      link: https://www.iso.org/standard/45324.html
+      original: ISO/IEC Guide 99:2007, 1.1, modified – Deletion of NOTE 3 and NOTE
+        4, and some changes in the other notes.
+    modification: Deletion of NOTE 3 and NOTE 4, and some changes in the other notes.

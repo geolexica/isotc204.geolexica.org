@@ -1,0 +1,50 @@
+---
+layout: base-page
+title: About
+permalink: /about/
+bodyClass: page
+nav_items: [concepts, posts, stats, registers]
+---
+:page-liquid:
+
+The ISO/TC 204 Intelligent transport systems (ITS)
+is the glossary for intelligent transport systems from
+https://github.com/ISO-TC204/iso14812[ISO/TC 204 Intelligent transport systems].
+
+The online version of the ITS served on the Geolexica platform
+fully reflect entries from the authoritative English terms
+that originate from ISO/TC 204 standards.
+
+Specifically:
+
+* English terms and definitions are from published
+  ISO/TC 204 standards (normative);
+
+
+== Current content ({{ site.data.metadata.version }} edition)
+
+The current contents in the online version of the ISO/TC 204 ITS are
+from https://github.com/ISO-TC204/iso14812[ISO-TC204]:
+
+* {{ site.data.metadata.concept_count }} English language terminology entries (terms/definitions)
+from published ISO/TC 204 standards as of June 2020;
+
+
+== Copyright
+
+(C) {{ site.time | date: "%Y" }} International Organization for Standardization.
+
+All rights reserved. Unless otherwise specified, no part of this
+site or its documents may be reproduced or utilized otherwise in any form or by any
+means, electronic or mechanical, including photocopying, or posting on the
+internet or an intranet, without prior written permission. Permission can
+be requested from the address below.
+
+[%hardbreaks]
+International Organization for Standardization
+Chemin de Blandonnet 8
+CP 401
+1214 Vernier, Geneva
+Switzerland
+mailto:copyright@iso.org[copyright@iso.org]
+https://www.iso.org/[www.iso.org]
