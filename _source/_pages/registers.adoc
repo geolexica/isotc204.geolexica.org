@@ -1,0 +1,34 @@
+---
+layout: base-page
+title: Registers
+permalink: "/registers/index.html"
+bodyClass: page
+nav_items: [concepts, posts, stats, about]
+---
+:page-liquid:
+
+Concepts and terms in the online version of ISO/TC 204 ITS are
+directly imported from these registries within the ITS.
+
+Details of these registries are shown below:
+
+{% for lang in site.data.info.languages %}
+
+[[language-{{ lang[0] }}]]
+== {{ lang[1].register-name }}
+
+Language:: {{ lang[1].operating-language-name }} (ISO 639-2: `{{ lang[1].operating-language-code }}`)
+Last updated:: {{ lang[1].date-of-last-change }}
+
+{% assign uri = lang[1].uniform-resource-identifier-uri %}
+{% unless uri == "" or uri == nil or uri contains "URI" %}
+{% if uri contains '://' %}
+Responsible organization URI:: link:{{ uri }}[{{ uri }}]
+{% else %}
+Responsible organization URI:: link:{{ uri | prepend: "http://" }}[{{ uri }}]
+{% endif %}
+{% endunless %}
+
+Description:: {{ lang[1].content-summary }}
+
+{% endfor %}
