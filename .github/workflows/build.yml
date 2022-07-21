@@ -1,0 +1,54 @@
+name: build
+
+on:
+  push:
+    branches:
+      - '!master'
+      - '!staging'
+  pull_request:
+
+jobs:
+  build:
+    name: Build site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup prerequisites
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y curl make libxml2-dev libxslt-dev openssl
+
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Use Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+          bundler-cache: true
+
+      # - name: Checkout data
+      #   uses: actions/checkout@v2
+      #   with:
+      #     token: ${{ secrets.GLOSSARIST_CI_PAT_TOKEN }}
+      #     repository: geolexica/isotc204-glossary
+      #     path: isotc204-glossary
+      #     ref: master
+      #     fetch-depth: 1
+
+      - name: Cache relaton
+        uses: actions/cache@v2
+        with:
+          path: relaton
+          key: ${{ runner.os }}-${{ hashFiles('isotc204-glossary/**/*.yaml') }}
+
+      - name: Use Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '10'
+          cache: 'npm'
+
+      - run: npm install
+
+      - name: Build site
+        run: |
+          make _site
