@@ -1,0 +1,86 @@
+= ISO/TC 204 Geolexica online
+
+image:https://img.shields.io/github/workflow/status/geolexica/isotc204.geolexica.org/deploy?label=production%20deployment&style=flat-square[Deployment Status]
+image:https://img.shields.io/github/workflow/status/geolexica/isotc204.geolexica.org/build?label=build&style=flat-square[Build Status]
+
+== Introduction
+
+NOTE: This repository is only meant for internal consumption!
+
+The online version of the ISO/TC 204 vocabulary is served
+by the Geolexica platform, an open-source platform for machine-readable
+open terminologies.
+
+This repository contains the source of the https://isotc204.geolexica.org site.
+
+The site is managed by ISO/TC 204 together with Enosema/Ribose.
+
+== Sites
+
+`master`:: https://isotc204.geolexica.org/
+`staging`:: https://isotc204-staging.geolexica.org
+
+== How to add/remove entries or suggest changes?
+
+For change suggestions, contact ISO/TC 204.
+
+This terminology database is managed by the ISO/TC 204, and it only considers
+requests from within ISO/TC 204. The database is not directly community-managed or community-sourced.
+
+
+== ISO/TC 204 MLGT component overview
+
+Components involved in ISO/TC 204 MLGT solution:
+
+. isotc204.geolexica.org: **this repository**.
+  Renders the MLGT into HTML, JSON-LD and other Web-friendly formats.
+
+. Concepts data set for Geolexica:
+  see https://github.com/geolexica/isotc204-glossary[geolexica/isotc204-glossary].
+  Hosts all concept data in YAML;
+  bundles facilities for converting authoritative spreadsheet data into YAML.
+
+. Glossarist desktop application:
+  https://github.com/geolexica/geolexica-desktop[Geolexica Desktop].
+  is used to manage the MLGT database.
+
+
+=== Change lifecycle
+
+. Requested changes are directed to ISO/TC 204
+
+. Adding, updating, approving concepts and terms in ISO/TC 204 Geolexica database
+  is done by TMG using Glossarist desktop.
+
+. As changes are made, new versions of the Geolexica database are created,
+  and isotc204.geolexica.org is deployed with the latest dataset version.
+
+
+== Internal operations
+
+NOTE: These steps are only intended for the internal operator of the site!
+
+
+=== Building the site
+
+. Ensure isotc204-glossary submodule is up-to-date.
+
+. Run `npm install`
+
+. Run `make _site`
+
+
+=== Deployment
+
+Please push all changes to the `staging` branch, and changes will be automatically deployed and reflected on the staging site.
+
+If your changes are to be made public to the production site, please contact Ribose.
+
+
+=== Rendering of HTML
+
+Jekyll is used to render YAML into HTML.
+
+NOTE: Since Jekyll Collections have this flaw where YAML files can't be directly
+rendered, a hack is implemented in the Makefile `_concepts` target,
+so that every YAML file is converted into AsciiDoc by padding `---` at the end.
