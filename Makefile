@@ -35,10 +35,4 @@ metadata.yaml:
 serve:
 	bundle exec jekyll serve
 
-update-init:
-	git submodule update --init
-
-update-modules:
-	git submodule foreach git pull origin master
-
-.PHONY: data bundle all open serve clean update-init update-modules postprocess
+.PHONY: data bundle all open serve clean postprocess

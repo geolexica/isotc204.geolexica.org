@@ -17,7 +17,7 @@ end.sum
 meta = {
   "concept_count" => terms.length,
   "term_count" => term_count,
-  "version" => "20200602"
+  "version" => "20220530"
 }
 
 File.open("metadata.yaml", "w") do |file|
