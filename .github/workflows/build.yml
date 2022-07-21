@@ -12,9 +12,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    environment:
-      name: ${{ github.ref == 'refs/heads/main' && 'production' || 'staging' }}
-      url: ${{ github.ref == 'refs/heads/main' && 'https://isotc204.geolexica.org' || 'https://isotc204-staging.geolexica.org' }}
     steps:
     - name: Setup prerequisites
       run: |
@@ -67,6 +64,9 @@ jobs:
     if: ${{ github.ref == 'refs/heads/main' || github.ref == 'refs/heads/staging' }}
     runs-on: ubuntu-latest
     needs: build
+    environment:
+      name: ${{ github.ref == 'refs/heads/main' && 'production' || 'staging' }}
+      url: ${{ github.ref == 'refs/heads/main' && 'https://isotc204.geolexica.org' || 'https://isotc204-staging.geolexica.org' }}
     steps:
     - uses: actions/download-artifact@v3
       with:
