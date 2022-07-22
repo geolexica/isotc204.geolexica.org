@@ -54,11 +54,14 @@ jobs:
       run: |
         make _site
 
+    - name: Compress files
+      run: zip -9 -r site.zip _site
+
     - uses: actions/upload-artifact@v3
       if: ${{ github.ref == 'refs/heads/main' || github.ref == 'refs/heads/staging' }}
       with:
         name: site
-        path: _site
+        path: site.zip
 
   deploy:
     if: ${{ github.ref == 'refs/heads/main' || github.ref == 'refs/heads/staging' }}
@@ -71,7 +74,10 @@ jobs:
     - uses: actions/download-artifact@v3
       with:
         name: site
-        path: _site
+        path: site.zip
+
+    - name: Decompress files
+      run: unzip site.zip
 
     # - name: Display structure of downloaded files
     #   run: ls -R
