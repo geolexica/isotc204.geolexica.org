@@ -27,14 +27,14 @@ jobs:
         ruby-version: 2.7
         bundler-cache: true
 
-    # - name: Checkout data
-    #   uses: actions/checkout@v2
-    #   with:
-    #     token: ${{ secrets.GLOSSARIST_CI_PAT_TOKEN }}
-    #     repository: geolexica/isotc204-glossary
-    #     path: isotc204-glossary
-    #     ref: master
-    #     fetch-depth: 1
+    - name: Checkout data
+      uses: actions/checkout@v3
+      with:
+        token: ${{ github.token }}
+        repository: geolexica/isotc204-glossary
+        path: isotc204-glossary
+        ref: main
+        fetch-depth: 1
 
     - name: Cache relaton
       uses: actions/cache@v3
