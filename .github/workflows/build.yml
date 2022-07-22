@@ -74,13 +74,12 @@ jobs:
     - uses: actions/download-artifact@v3
       with:
         name: site
-        path: site.zip
+
+    - name: Display structure of downloaded files
+      run: ls -R
 
     - name: Decompress files
       run: unzip site.zip
-
-    # - name: Display structure of downloaded files
-    #   run: ls -R
 
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
