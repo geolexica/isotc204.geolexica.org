@@ -7,7 +7,8 @@ on:
       - staging
   pull_request:
   repository_dispatch:
-    types: [ deploy_main ]
+    types:
+    - deploy_main
 
 jobs:
   build:
@@ -58,13 +59,13 @@ jobs:
       run: zip -9 -r site.zip _site
 
     - uses: actions/upload-artifact@v3
-      if: ${{ github.ref == 'refs/heads/main' || github.ref == 'refs/heads/staging' }}
+      if: ${{ github.ref == 'refs/heads/main' || github.ref == 'refs/heads/staging' || github.event.client_payload.ref == 'refs/heads/main' || github.event.client_payload.ref == 'refs/heads/staging' }}
       with:
         name: site
         path: site.zip
 
   deploy:
-    if: ${{ github.ref == 'refs/heads/main' || github.ref == 'refs/heads/staging' }}
+    if: ${{ github.ref == 'refs/heads/main' || github.ref == 'refs/heads/staging' || github.event.client_payload.ref == 'refs/heads/main' || github.event.client_payload.ref == 'refs/heads/staging' }}
     runs-on: ubuntu-latest
     needs: build
     environment:
