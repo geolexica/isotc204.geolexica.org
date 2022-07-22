@@ -8,8 +8,8 @@ nav_items: [concepts, posts, stats, registers]
 :page-liquid:
 
 The Geolexica for Intelligent transport systems (ITS)
-provides concepts from the ISO 14812:2022 standard, originating from the
-https://github.com/ISO-TC204/iso14812[GitHub version of iso14812].
+provides concepts from the ISO 14812:2022 standard, originating from its
+open-sourced concept set on https://github.com/ISO-TC204/iso14812[GitHub].
 
 // Specifically:
 
@@ -19,9 +19,8 @@ https://github.com/ISO-TC204/iso14812[GitHub version of iso14812].
 
 == Current content ({{ site.data.metadata.version }} edition)
 
-The current contents in the online version of the ISO/TC 204 ITS are
-from the
-https://github.com/ISO-TC204/iso14812[GitHub version of iso14812]:
+The current contents in this Geolexica is from its open-sourced concept set on
+https://github.com/ISO-TC204/iso14812[GitHub]:
 
 * {{ site.data.metadata.concept_count }} English language terminology entries
 
