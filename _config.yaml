@@ -1,6 +1,6 @@
 source: _source
 
-title: "ISO/TC 204 Intelligent transport systems (ITS)"
+title: "Geolexica for Intelligent transport systems (ISO 14812)"
 
 committee:
   identifier: TC 204
@@ -19,14 +19,13 @@ font_awesome_kit_url: https://kit.fontawesome.com/77a8a07e0a.js
 has_brand_name: yes
 always_show_committee_link_on_landing: yes
 
-email: open.source@ribose.com
+email: info@enosema.org
 
 tagline: >-
-  The authoritative
-  intelligent transport systems database
+  The digital intelligent transport systems vocabulary
 
 description: >-
-  The authoritative glossary for intelligent transport systems from ISO/TC 204.
+  Authoritative vocabulary for intelligent transport systems from ISO 14812.
 
 baseurl: ""
 url: "https://isotc204.geolexica.org"
