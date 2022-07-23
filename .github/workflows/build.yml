@@ -16,7 +16,7 @@ jobs:
     with:
       repository: geolexica/isotc204-glossary
       concepts-path: isotc204-glossary
-      environment-path: ${{ github.ref == 'refs/heads/main' && 'production' || 'staging' }}
+      environment-name: ${{ github.ref == 'refs/heads/main' && 'production' || 'staging' }}
       environment-url: ${{ github.ref == 'refs/heads/main' && 'https://isotc204.geolexica.org' || 'https://isotc204-staging.geolexica.org' }}
       production-branch: refs/heads/main
       staging-branch: staging
