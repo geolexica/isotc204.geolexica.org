@@ -16,10 +16,10 @@ jobs:
     with:
       repository: geolexica/isotc204-glossary
       concepts-path: isotc204-glossary
-      production-branch: main
-      production-site: https://isotc204.geolexica.org
+      environment-path: ${{ github.ref == 'refs/heads/main' && 'production' || 'staging' }}
+      environment-url: ${{ github.ref == 'refs/heads/main' && 'https://isotc204.geolexica.org' || 'https://isotc204-staging.geolexica.org' }}
+      production-branch: refs/heads/main
       staging-branch: staging
-      staging-site: https://isotc204-staging.geolexica.org
       aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
       aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       aws-region: ${{ secrets.AWS_REGION }}
