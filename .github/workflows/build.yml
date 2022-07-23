@@ -23,6 +23,7 @@ jobs:
       environment-url: ${{ github.ref == 'refs/heads/main' && 'https://isotc204.geolexica.org' || 'https://isotc204-staging.geolexica.org' }}
       production-branch: refs/heads/main
       staging-branch: staging
+    secrets:
       aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
       aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       aws-region: ${{ secrets.AWS_REGION }}
