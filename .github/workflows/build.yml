@@ -12,10 +12,7 @@ on:
 
 jobs:
   build-deploy:
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: geolexica/ci/.github/workflows/site-deploy.yml@main
+    uses: geolexica/ci/.github/workflows/site-deploy.yml@main
       with:
         repository: geolexica/isotc204-glossary
         concepts-path: isotc204-glossary
