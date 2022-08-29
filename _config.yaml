@@ -88,7 +88,7 @@ defaults:
 
 geolexica:
   concepts_glob: "../isotc204-glossary/concepts/*.yaml"
-  images_glob: "../isotc204-glossary/images/*.png"
+  glossary_path: "../isotc204-glossary"
   math: true
   term_languages:
     - eng
