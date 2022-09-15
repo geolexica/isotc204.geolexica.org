@@ -2,6 +2,16 @@
 
 # frozen_string_literal: true
 
+# Added because relaton was not available in Github action
+# This is a temporary solution, will need to look into this further
+require "bundler/inline"
+
+gemfile do
+  source "https://rubygems.org"
+
+  gem "relaton"
+end
+
 require "yaml"
 require "relaton"
 
