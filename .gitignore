@@ -14,5 +14,8 @@ tc211-termbase.xlsx
 # These are generated from the Makefile
 _source/_data/info.yaml
 _source/_data/metadata.yaml
+_source/_data/bibliography
+bibliography
+metadata.yaml
 
 .ruby-version

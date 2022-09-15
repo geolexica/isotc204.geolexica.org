@@ -8,7 +8,7 @@ all: _site
 clean:
 	rm -rf _site _source/_data/info.yaml _source/_data/metadata.yaml
 
-data: _source/_data/info.yaml _source/_data/metadata.yaml
+data: _source/_data/info.yaml _source/_data/metadata.yaml _source/_data/bibliography
 
 _site: data | bundle
 	bundle exec jekyll build
@@ -29,8 +29,14 @@ _source/_data/info.yaml: isotc204-glossary/tc204-termbase.meta.yaml
 _source/_data/metadata.yaml: metadata.yaml
 	cp -f $< $@
 
+_source/_data/bibliography: bibliography
+	cp -rf $< $@
+
 metadata.yaml:
 	scripts/generate_metadata.rb
+
+bibliography:
+	scripts/generate_bibliography.rb
 
 serve:
 	bundle exec jekyll serve
