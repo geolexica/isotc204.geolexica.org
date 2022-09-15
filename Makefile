@@ -10,7 +10,7 @@ clean:
 
 data: _source/_data/info.yaml _source/_data/metadata.yaml _source/_data/bibliography
 
-_site: data | bundle
+_site: bundle | data
 	bundle exec jekyll build
 
 postprocess:
