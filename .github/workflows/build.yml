@@ -14,12 +14,13 @@ jobs:
   build-deploy:
     uses: geolexica/ci/.github/workflows/site-deploy.yml@main
     with:
+      ref: ${{ github.event_name == 'repository_dispatch' && github.event.client_payload.ref || github.ref }}
       repository: geolexica/isotc204-glossary
       concepts-path: isotc204-glossary
-      environment-name: ${{ github.ref == 'refs/heads/main' && 'production' || 'staging' }}
-      environment-url: ${{ github.ref == 'refs/heads/main' && 'https://isotc204.geolexica.org' || 'https://isotc204-staging.geolexica.org' }}
       production-branch: refs/heads/main
-      staging-branch: staging
+      staging-branch: refs/heads/staging
+      production-url: https://isotc204.geolexica.org
+      staging-url: https://isotc204-staging.geolexica.org
     secrets:
       aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
       aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
