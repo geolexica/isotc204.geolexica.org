@@ -87,9 +87,9 @@ defaults:
       show_header_meta: true
 
 geolexica:
-  glossary_path: "../isotc204-glossary/geolexica"
-  concepts_glob: "../isotc204-glossary/geolexica/concept/*.yaml"
-  localized_concepts_path: "../isotc204-glossary/geolexica/localized_concept"
+  glossary_path: "../isotc204-glossary/geolexica-v2"
+  images_metadata_path: "../isotc204-glossary/geolexica"
+  concepts_glob: "../isotc204-glossary/geolexica-v2/*.yaml"
   math: true
   term_languages:
     - eng
