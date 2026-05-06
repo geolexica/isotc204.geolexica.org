@@ -1,0 +1,81 @@
+id: isotc204
+domain: isotc204.geolexica.org
+title: ISO/TC 204 ITS Vocabulary
+description: Authoritative vocabulary for intelligent transport systems from ISO 14812.
+
+datasets:
+  - id: isotc204
+    uri: "urn:iso:std:iso:14812:*"
+    gcrPackage: https://github.com/geolexica/isotc204-glossary/releases/latest/download/isotc204-full.gcr
+    sourceRepo: https://github.com/geolexica/isotc204-glossary
+    title: "ISO/TC 204 ITS Vocabulary"
+    description: "Vocabulary for intelligent transport systems from ISO 14812"
+    owner: ISO/TC 204
+    color: "#d97706"
+
+routing:
+  - uri: "urn:iec:std:iec:60050:*"
+    type: url
+    url: "https://electropedia.org/iev/iev.nsf/display?openform&ievref={conceptId}"
+    label: "IEC Electropedia"
+
+  - uri: "https://glossarist.org/iev/*"
+    type: url
+    url: "https://electropedia.org/iev/iev.nsf/display?openform&ievref={conceptId}"
+    label: "IEC Electropedia"
+
+  - uri: "https://glossarist.org/isotc211/*"
+    type: site
+    baseUrl: "https://isotc211.geolexica.org"
+    label: "ISO/TC 211 Glossary"
+
+  - uri: "https://glossarist.org/osgeo/*"
+    type: site
+    baseUrl: "https://osgeo.geolexica.org"
+    label: "OSGeo Lexicon"
+
+branding:
+  primaryColor: "#d97706"
+  darkColor: "#1a1a2e"
+  fonts:
+    header:
+      family: "Roboto Condensed"
+      source: google
+      weights: [700]
+    body:
+      family: "Roboto"
+      source: google
+      weights: [400, 500, 700]
+  logo:
+    path: /logos/iso-logo.svg
+    alt: "ISO"
+    localPath: logos/iso-logo.svg
+  ownerName: "ISO/TC 204"
+  ownerUrl: https://isotc204.geolexica.org
+
+features:
+  news: false
+  stats: true
+  graph: true
+  about: true
+  search: true
+
+social:
+  github: "https://github.com/geolexica/isotc204-glossary"
+
+nav:
+  - label: Concepts
+    route: home
+  - label: Search
+    route: search
+  - label: Graph
+    route: graph
+
+footerNav:
+  - label: About
+    route: about
+
+defaults:
+  language: eng
+
+email: info@enosema.org
