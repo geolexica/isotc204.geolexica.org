@@ -47,7 +47,7 @@ branding:
       source: google
       weights: [400, 500, 700]
   logo:
-    path: /logos/iso-logo.svg
+    path: /logos/isotc204-logo.svg
     alt: "ISO"
     localPath: logos/iso-logo.svg
   ownerName: "ISO/TC 204"
