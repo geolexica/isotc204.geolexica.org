@@ -1,28 +1,56 @@
-name: deploy
+name: build_deploy
 
 on:
   push:
-    branches:
-      - main
-      - staging
+    branches: [main]
   pull_request:
   repository_dispatch:
-    types:
-    - deploy
+    types: [deploy]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
-  build-deploy:
-    uses: geolexica/ci/.github/workflows/site-deploy.yml@main
-    with:
-      repository: geolexica/isotc204-glossary
-      concepts-path: isotc204-glossary
-      environment-name: ${{ github.ref == 'refs/heads/main' && 'production' || 'staging' }}
-      environment-url: ${{ github.ref == 'refs/heads/main' && 'https://isotc204.geolexica.org' || 'https://isotc204-staging.geolexica.org' }}
-      production-branch: refs/heads/main
-      staging-branch: staging
-    secrets:
-      aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-      aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-      aws-region: ${{ secrets.AWS_REGION }}
-      aws-cf-distribution-id: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
-      aws-s3-bucket-name: ${{ secrets.S3_BUCKET_NAME }}
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+      url: https://isotc204.geolexica.org
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install concept-browser
+        run: npm install @glossarist/concept-browser
+
+      - name: Build site
+        run: npx concept-browser build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    if: ${{ github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
