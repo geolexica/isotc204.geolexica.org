@@ -65,6 +65,7 @@ pages:
     route: about
     title: About
     icon: info
+    source: about.md
 
 social:
   github: "https://github.com/geolexica/isotc204-glossary"
