@@ -16,3 +16,7 @@ _source/_data/info.yaml
 _source/_data/metadata.yaml
 
 .ruby-version
+public/
+dist/
+metadata.yaml
+.vscode/

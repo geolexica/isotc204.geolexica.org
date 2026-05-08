@@ -60,6 +60,12 @@ features:
   about: true
   search: true
 
+pages:
+  - type: about
+    route: about
+    title: About
+    icon: info
+
 social:
   github: "https://github.com/geolexica/isotc204-glossary"
 
@@ -77,5 +83,7 @@ footerNav:
 
 defaults:
   language: eng
+
+copyright: "ISO/TC 204"
 
 email: info@enosema.org
