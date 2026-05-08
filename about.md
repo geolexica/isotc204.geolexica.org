@@ -43,5 +43,8 @@ This site is built with the [Glossarist Concept Browser](https://github.com/geol
 
 For questions about ISO/TC 204 ITS terminology:
 
+- **ISO 14812 Contact**: Kenneth Vaughn (kvaughn@trevilon.com)
+- **ISO/TC 204 Secretariat**: SAE International — [www.sae.org](http://www.sae.org/)
+- **ISO/TC 204 Technical Programme Manager**: Mr. Hakim Mkinsi (mkinsi@iso.org)
 - **ISO/TC 204 Secretariat**: info@enosema.org
 - **GitHub**: [github.com/geolexica/isotc204-glossary](https://github.com/geolexica/isotc204-glossary)
