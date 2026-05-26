@@ -31,10 +31,10 @@ jobs:
           node-version: 20
 
       - name: Install concept-browser
-        run: npm install @glossarist/concept-browser
+        run: npm install -g @glossarist/concept-browser
 
       - name: Build site
-        run: ./node_modules/.bin/concept-browser build
+        run: concept-browser build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
