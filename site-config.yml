@@ -4,14 +4,47 @@ uriBase: https://isotc204.geolexica.org
 title: ISO/TC 204 ITS Vocabulary
 description: Authoritative vocabulary for intelligent transport systems from ISO 14812.
 
+# Three editions as sibling datasets, wired into a lineage-series timeline.
+# The GCR packages are produced by isotc204-glossary's publish-gcr.yml
+# workflow on tag push. Each edition has its own per-edition GCR; the
+# `datasetGroups` block below tells concept-browser to render them as a
+# timeline (kind: lineage) — newest first.
 datasets:
-  - id: isotc204
-    uri: "urn:iso:std:iso:14812:*"
-    gcrPackage: https://github.com/geolexica/isotc204-glossary/releases/latest/download/isotc204-full.gcr
+  - id: isotc204-2022
+    uri: "urn:iso:std:iso:ts:14812:2022:*"
+    gcrPackage: https://github.com/geolexica/isotc204-glossary/releases/latest/download/isotc204-2022-full.gcr
     sourceRepo: https://github.com/geolexica/isotc204-glossary
-    title: "ISO/TC 204 ITS Vocabulary"
-    description: "Vocabulary for intelligent transport systems from ISO 14812"
+    title: "ISO/TC 204 ITS Vocabulary (2022, Edition 1)"
+    description: "Edition 1, originally published as ISO/TS 14812:2022"
     owner: ISO/TC 204
+    color: "#d97706"
+
+  - id: isotc204-2025
+    uri: "urn:iso:std:iso:14812:2025:*"
+    gcrPackage: https://github.com/geolexica/isotc204-glossary/releases/latest/download/isotc204-2025-full.gcr
+    sourceRepo: https://github.com/geolexica/isotc204-glossary
+    title: "ISO/TC 204 ITS Vocabulary (2025, Edition 2)"
+    description: "Edition 2, published as ISO 14812:2025"
+    owner: ISO/TC 204
+    color: "#92400e"
+
+  - id: isotc204-ed3
+    uri: "urn:iso:std:iso:14812:ed3:*"
+    gcrPackage: https://github.com/geolexica/isotc204-glossary/releases/latest/download/isotc204-ed3-full.gcr
+    sourceRepo: https://github.com/geolexica/isotc204-glossary
+    title: "ISO/TC 204 ITS Vocabulary (Edition 3, draft)"
+    description: "Edition 3 draft, generated from the iso14812 ontology"
+    owner: ISO/TC 204
+    color: "#451a03"
+
+datasetGroups:
+  - id: isotc204
+    label: ISO/TC 204 ITS Vocabulary
+    kind: lineage
+    datasets:
+      - isotc204-ed3
+      - isotc204-2025
+      - isotc204-2022
     color: "#d97706"
 
 routing:
